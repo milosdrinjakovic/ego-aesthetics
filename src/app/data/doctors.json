@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Aleksandar Popović",
+    "title": "Specijalista opšte medicine",
+    "experience": 8,
+    "image": "/images/doctors/doctor1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jelena Petrović",
+    "title": "Specijalista neurologije",
+    "experience": 10,
+    "image": "/images/doctors/doctor2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Nikola Jovanović",
+    "title": "Specijalista ginekologije",
+    "experience": 12,
+    "image": "/images/doctors/doctor3.webp"
+  },
+
+  {
+    "id": 4,
+    "name": "Dr. Marija Simić",
+    "title": "Specijalista psihijatrije",
+    "experience": 15,
+    "image": "/images/doctors/doctor4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Marko Đorđević",
+    "title": "Specijalista ortopedije",
+    "experience": 10,
+    "image": "/images/doctors/doctor5.webp"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Ana Stojanović",
+    "title": "Specijalista dermatologije",
+    "experience": 8,
+    "image": "/images/doctors/doctor6.webp"
+  }
+]

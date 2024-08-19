@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "title": "Tretman 1",
+      "image": "/images/treatmants/treatman6.jpg",
+      "description": "Ovo je kratak opis tretmana 1.",
+      "detailsUrl": "/treatmants/1"
+    },
+    {
+      "id": 2,
+      "title": "Tretman 2",
+      "image": "/images/treatmants/treatman5.jpg",
+      "description": "Ovo je kratak opis tretmana 2.",
+      "detailsUrl": "/treatmants/2"
+    },
+    {
+      "id": 3,
+      "title": "Tretman 3",
+      "image": "/images/treatmants/treatman4.jpg",
+      "description": "Ovo je kratak opis tretmana 3.",
+      "detailsUrl": "/treatmants/3"
+    }
+   
+  ]
+  

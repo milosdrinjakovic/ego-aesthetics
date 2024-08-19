@@ -1,0 +1,108 @@
+ {
+    "categories": [
+      {
+        "name": "Estetski tretmani",
+        "services": [
+          { "name": "DEPILACIJA LICA", "price": "2.500 rsd" },
+          { "name": "DERMAPILING", "price": "3.000 rsd" },
+          { "name": "MASAŽA LICA + MASKA", "duration": "40 min", "price": "5.000 rsd" },
+          { "name": "HIGIJENSKI TRETMAN LICA (žene)", "duration": "90 min", "price": "7.500 rsd" },
+          { "name": "HIGIJENSKI TRETMAN LICA (muškarci)", "duration": "90 min", "price": "10.000 rsd" },
+          { "name": "KRALJEVSKI TRETMAN (18 etapa)", "duration": "120 min", "price": "14.000 rsd" },
+          { "name": "MEZOTERAPIJA (micro needling)", "duration": "60 min", "price": "15.000 rsd" },
+          { "name": "HIGIJENSKI TRETMAN LEĐA", "duration": "60 min", "price": "16.500 rsd" }
+        ]
+      },
+      {
+        "name": "Obagi tretmani",
+        "services": [
+          { "name": "OBAGI ANTIOXIDANT", "price": "8.500 rsd" },
+          { "name": "OBAGI AGE DEFYING", "price": "8500 rsd" },
+          { "name": "OBAGI ACNE EXPRESS", "price": "8500 rsd" },
+          { "name": "OBAGI BLUE PEEL", "price": "12000 rsd" }
+        ]
+      },
+      {
+        "name": "Pilizni",
+        "services": [
+          { "name": "PRX-T-33 (lice)", "price": "7500 rsd" },
+          { "name": "BIOREPEEL CL3", "price": "8000 rsd" },
+          { "name": "PRX T-33 (lice+vrat)", "price": "11500 rsd" }
+        ]
+      },
+      {
+        "name": "Liposomalni pilinzi",
+        "services": [
+          { "name": "MANDELIČNI", "price": "7500 rsd" },
+          { "name": "MLEČNI", "price": "7500 rsd" },
+          { "name": "SALICILNI", "price": "7500 rsd" },
+          { "name": "MULTI-PEEL", "price": "8000 rsd" },
+          { "name": "GLIKOLNI", "price": "8000 rsd" },
+          { "name": "AZELAIČNI", "price": "8500 rsd" },
+          { "name": "JESSNER", "price": "9000 rsd" }
+        ]
+      },
+      {
+        "name": "Injekcioni tretmani",
+        "services": [
+          { "name": "BOTOX (1 regija)", "price": "16000 rsd" },
+          { "name": "BOTOX (2 regije)", "price": "26000 rsd" },
+          { "name": "BOTOX (3 regije)", "price": "36000 rsd" },
+          { "name": "BOTOX (full face)", "price": "82000 rsd" },
+          { "name": "BOTOX ANTIMIGRENA", "price": "82000 rsd" },
+          { "name": "BOTOX HIPERHIDROZA (po regiji)", "price": "45000 rsd - 55000 rsd" },
+          { "name": "MEZOTERAPIJA (podočnjaci)", "price": "10000 rsd" },
+          { "name": "MEZOTERAPIJA (lice)", "price": "15000 rsd" },
+          { "name": "MEZOTERAPIJA (lice+vrat)", "price": "20000 rsd" },
+          { "name": "MEZOTERAPIJA (lice+vrat+dekolte)", "price": "30000 rsd" }
+        ]
+      },
+      {
+        "name": "Hijaluronski filteri",
+        "services": [
+          { "name": "STYLAGE 1ml", "price": "42000 rsd" },
+          { "name": "NEOUVEA 1ml", "price": "43000 rsd" },
+          { "name": "JUVIDERM 1ml", "price": "45000 rsd" },
+          { "name": "PRP (terapija kose)", "price": "30000 rsd" },
+          { "name": "PRP (plazma lifting)", "price": "30000/42000/60000 rsd" },
+          { "name": "HIJALURONIDAZA (topljenje filera)", "price": "od 8000 rsd" },
+          { "name": "LIPOLIZA (oblikovanje tela 2m)", "price": "12000 rsd" },
+          { "name": "FILERI SA KOLAGEN STIMULACIJOM", "price": "36000 rsd" },
+          { "name": "BIOREVITALIZACIJA", "price": "20000 rsd - 36000 rsd" }
+        ]
+      },
+      {
+        "name": "Niti",
+        "services": [
+          { "name": "MEZONITI", "price": "1800 rsd / kom" },
+          { "name": "COG niti", "price": "2200 rsd / kom" }
+        ]
+      },
+      {
+        "name": "Aparatni tretmani za lice",
+        "services": [
+          { "name": "GOLD 24k", "duration": "40 min", "price": "8500 rsd" },
+          { "name": "ULTRAZVUČNO ČIŠĆENJE", "duration": "60 min", "price": "8500 rsd" },
+          { "name": "CARBOXY TERAPIJA CO2", "duration": "50 min", "price": "9000 rsd" },
+          { "name": "HIDRAFACIAL", "duration": "40 min", "price": "9000 rsd" },
+          { "name": "TERMALIFTING", "duration": "50 min", "price": "9500 rsd" },
+          { "name": "DERMADROP+ MASKA", "duration": "50 min", "price": "11000 rsd" },
+          { "name": "ULTRASONIC LIFTING+MASKA", "duration": "60 min", "price": "11000 rsd" },
+          { "name": "KRIOTERAPIJA+MASKA", "duration": "60 min", "price": "11500 rsd" },
+          { "name": "AQUASONIC", "duration": "60 min", "price": "12000 rsd" },
+          { "name": "RF LIFTING+MASKA", "duration": "60 min", "price": "12000 rsd" }
+        ]
+      },
+      {
+        "name": "Aparatni tretmani (za telo)",
+        "services": [
+          { "name": "LIPOLAZER (1 zona)", "duration": "25 min", "price": "4000 rsd" },
+          { "name": "FRESOTERAPIJA (celo telo)", "duration": "30 min", "price": "4500 rsd" },
+          { "name": "KAVITACIJA (1 zona)", "duration": "20 min", "price": "5500 rsd" },
+          { "name": "VACUM + PF LIFTING (1 zona)", "duration": "20 min", "price": "7500 rsd" },
+          { "name": "RF LIFTING (1 zona)", "duration": "25 min", "price": "9500 rsd" }
+        ]
+      }
+    ]
+  }
+  

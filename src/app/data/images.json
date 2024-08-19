@@ -1,0 +1,9 @@
+[
+    { "src": "src/assets/images/gallery/galery1.jpg", "width": "50%", "height": "auto" },
+    { "src": "src/assets/images/gallery/galery2.jpg", "width": "50%", "height": "auto" },
+    { "src": "src/assets/images/gallery/galery3.jpg", "width": "100%", "height": "auto" },
+    { "src": "src/assets/images/gallery/galery4.jpg", "width": "100%", "height": "auto" },
+    { "src": "src/assets/images/gallery/galery5.jpg", "width": "50%", "height": "auto" },
+    { "src": "src/assets/images/gallery/galery6.jpg", "width": "50%", "height": "auto" }
+  ]
+  
