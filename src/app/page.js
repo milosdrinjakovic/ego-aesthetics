@@ -11,46 +11,48 @@ export default function Home() {
   return (
     <>
       <div
-        className="background-cover bg-cover bg-center h-screen flex"
-        style={{ backgroundImage: "url('/images/hero1.jpeg')" }}
+        className="background-cover bg-cover bg-center h-screen flex mt-20 "
+        style={{ backgroundImage: "url('/images/hero/hero1.jpeg')" }}
       >
         <div className="container flex justify-center items-center h-full">
           <div className="text-white w-1/3">
-            <h1 className="text-6xl text-rose-500 font-serif">
-              Antiaging procedure
+            <h1 className="  headline text-6xl font-thin">
+            Neinvazivne kozmetičke 
+            i anti-aging procedure
             </h1>
             <p className="mt-4 text-lg">
-              Regenerativni tretmani za svežinu i sjaj vaše kože
+           
             </p>
-            <button className=" mt-6 border-2 border-white text-white px-5 py-3">
+            <button className=" mt-6 border-2 border-white text-white px-5 py-3 hover:bg-salmon rounded hover:border-salmon">
               SAZNAJ VIŠE{" "}
-              <span className=" text-2xl text-rose-500">&rarr;</span>
             </button>
           </div>
         </div>
       </div>
       <div
-        className="w-full"
+        className="w-full pt-10"
         style={{ backgroundImage: "url('/images/bg-1.jpg')" }}
       >
         <div className="flex justify-between items-center mx-auto w-3/4 p-20 text-center">
           <div className="flex flex-col justify-center items-center w-2/4">
-            <h1 className="text-5xl font-serif">
-              Posetite naš salon i doživite osećaj lepote i stila!
-            </h1>
-            <div className="border-t-2 border-rose-400 my-5 w-full"></div>
+            <p className="text-4xl headline">
+            POSETITE NAŠ SALON I DOŽIVITE OSEĆAJ LEPOTE I STILA
+
+            </p>
+            <div className="border-t-2 border-salmon my-5 w-full"></div>
             <p className="mt-5 text-justify">
-              <span className="text-rose-400 text-2xl font-serif">
-                Ego Aesthetics
+              <span className="text-salmon text-4xl headline">
+                Ego Aesthetics 
               </span>{" "}
               je luksuzni salon lepote koji teži da stvori dela umetnosti
               primenjujući najnovije trendove u oblikovanju, dizajnu i bojenju
               kose kako za muškarce, tako i za žene po pristupačnim cenama.
               Posvećeni smo unapređenju vaše prirodne lepote sa svakom posetom.
             </p>
-            <button className="mt-6 border-2 border-rose-400 text-rose-400 px-5 py-3">
-              SAZNAJ VIŠE <span className="text-2xl text-rose-500">&rarr;</span>
-            </button>
+            <div>
+            
+            </div>
+            
           </div>
           <div className="flex justify-center my-12 mx-auto">
             <img
@@ -61,12 +63,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+     
       <OfferingsSection data={treatmantsData} />
       <LogoStrip data={logosData} />
       <QuoteBanner />
-      <CustomerFeedbackGallery/>
-      <DoctorsSection   />
-
+      <CustomerFeedbackGallery />
+      <DoctorsSection />
     </>
   );
 }

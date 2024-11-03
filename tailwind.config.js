@@ -13,12 +13,16 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
+        lato: ['var(--font-lato)', 'sans-serif'],
+        opensans: ['var(--font-open-sans)', 'sans-serif'],
+        poppins: ['var(--font-poppins)','sans-serif']
       },
       colors :{
         customGold: "#D9A249",
-        goldLogo: "#AA7823"
+        goldLogo: "#AA7823",
+        newColor: "#bf9372",
+        navbarColor: "#DEC3B3",
+        salmon: "#f8c2c0"
       },
       borderRadius: {
         '4xl': '2rem',
@@ -29,7 +33,7 @@ module.exports = {
         '9xl': '5rem',
         '10xl': '10rem'
         // Dodajte još vrednosti po potrebi
-      }
+      },
     },
   },
   plugins: [],

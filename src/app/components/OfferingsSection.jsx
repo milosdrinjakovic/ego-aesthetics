@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function OfferingsSection({ data }) {
@@ -24,14 +25,13 @@ export default function OfferingsSection({ data }) {
         </div>
       </div>
 
-      <div className="container mx-auto px-5 py-2 lg:px-48 lg:pt-10">
+      {/* <div className="container mx-auto px-5 py-2 lg:px-48 lg:pt-10">
         <div className="flex flex-col items-center mx-auto p-0 m-0">
-          <h1 className="text-rose-400 font-serif text-center">
-            <span className="block text-5xl">Prime</span>
+          <h1 className="text-salmon text-center">
+            <span className="block text-5xl ">Prime</span>
             <span className="block text-5xl">tretmani lica</span>
           </h1>
-          <div className="w-2/4 h-0.5 bg-rose-400 mt-5"></div>
-          {/* Dodajemo underline ispod naslova */}
+          <div className="w-2/4 h-0.5 bg-salmon mt-5"></div>
         </div>
 
         <div className="w-3/4 text-xl items-center text-center mx-auto my-4">
@@ -56,7 +56,7 @@ export default function OfferingsSection({ data }) {
                 />
               </div>
               <div className="p-4">
-                <h3 className="text-2xl font-serif mb-2 text-rose-500">
+                <h3 className="text-2xl headline text-center mb-2 text-rose-500">
                   {treatment.title}
                 </h3>
                 <p className="text-gray-700 mb-4">
@@ -65,13 +65,51 @@ export default function OfferingsSection({ data }) {
                   eum vitae, ex fuga rerum ipsum perspiciatis commodi saepe sint
                   sunt corrupti illum, repudiandae dicta magni.
                 </p>
-                <Link href={treatment.detailsUrl} className="text-yellow-600 hover:underline">
-  Saznaj više
+                <Link href={treatment.detailsUrl} className="text-rose-500  border-salmon  hover:bg-salmon hover:text-white p-2 rounded">
+  saznaj više
 </Link>
               </div>
             </div>
           ))}
         </div>
+      </div> */}
+      <div className="flex flex-col items-center justify-center headline text-4xl text-salmon">
+      <p >TRETMANI</p>
+      <div className="h-0.5 w-1/4 my-5 bg-salmon"></div>
+      </div>
+      <div className="grid grid-cols-4 mx-auto w-3/5 gap-4">
+    
+
+        {data.map((treatment, index) => (
+          <div className="mx-auto group  relative" key={index}>
+            <Image
+              src={treatment.image}
+              className="w-[286px] h-[432px]"
+              alt={treatment.title}
+              width={500}
+              height={300}
+            />
+            
+            <Link href={treatment.detailsUrl}>
+              <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-salmon bg-opacity-70 text-white px-4 py-2 text-left w-11/12 max-h-[40px] overflow-hidden group-hover:max-h-[200px] transition-[max-height] duration-700 z-0">
+                <p className="text-lg">Nestooooo</p>
+                <p>Jos nestooo</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+                <p>Pa jos nesto</p>
+              </div>
+            </Link>
+          </div>
+        ))}
       </div>
     </>
   );

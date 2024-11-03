@@ -1,45 +1,48 @@
 [
   {
     "id": 1,
-    "name": "Dr. Aleksandar Popović",
-    "title": "Specijalista opšte medicine",
-    "experience": 8,
-    "image": "/images/doctors/doctor1.webp"
+    "name": "Liubov",
+    "title": "Kozmetolog, Dermatolog.",
+    "experience": 28,
+    "image": "/images/doctors/doctor1.jpg",
+    "bio": "Mezoterapija, hijaluronski fileri,nplazmalifting,podmlađivanje nitima,botox,kolagen stimulatori.",
+    "doctorUrl": "/singledoc/1",
+    "education": [
+      "1993 godine KMI-pedijatrija",
+      "1994 godine Moskovska medicinska akademija imena Sečenova - Stažiranje iz dermatovenerologije",
+      "1999 godine Profesionalna prekvalifikacija u kozmetologiji - Univerzitet RUDN",
+      "2005 godine Državna ustanova Istraživački institut za transplantologiju i veštačke organe",
+      "Napredna obuka za transplantaciju matičnih ćelija i fibroblasta u kliničkoj praksi",
+      "2010 godine Državni univerzitet Ministarstva odbrane Ruske Federacije - Stažiranje iz hirurgije",
+      "2012 Stručna prekvalifikacija iz plastične hirurgije - Univerzitet RUDN",
+      "2017 Međunarodni akademski centar za sertifikaciju Laser akademije nauka - stručno usavršavanje iz laserske terapije, hirurgije i laserske medicinske tehnologije."
+    ],
+    "about": [
+      "  Dr Lazareva stručnjak sa preko 28 godina iskustva u oblasti estetske i antiage medicine.",
+      "Redovni je učesnik stručnih skupova i seminara u Rusiji i inostranstvu. Poseduje brojne sertifikate iz ovih oblasti. Kontinuirano se usavršava na poljima estetske i antiage medicine.",
+      "Uspešno se bavi esteskom medicinom i anti-agingom lica i tela. Veliki broj zadovoljnih pacijentata, kvalitetan rad i individualni pristup garantuju sigurnost i zadovoljstvo postignutim rezultatima."
+    ]
   },
   {
     "id": 2,
-    "name": "Dr. Jelena Petrović",
-    "title": "Specijalista neurologije",
-    "experience": 10,
-    "image": "/images/doctors/doctor2.webp"
+    "name": "Selena",
+    "title": "Diplomirani kozmetolog.",
+    "experience": 3,
+    "image": "/images/doctors/doctor2.jpg",
+    "bio": "Biološke tretmane lica,anti-aging tretmane,masaže lica,aparaturne tretmane za telo i lice. ",
+    "doctorUrl": "/singledoc/2",
+    "education": [],
+    "about":    []
   },
   {
     "id": 3,
-    "name": "Dr. Nikola Jovanović",
-    "title": "Specijalista ginekologije",
-    "experience": 12,
-    "image": "/images/doctors/doctor3.webp"
-  },
-
-  {
-    "id": 4,
-    "name": "Dr. Marija Simić",
-    "title": "Specijalista psihijatrije",
-    "experience": 15,
-    "image": "/images/doctors/doctor4.webp"
-  },
-  {
-    "id": 5,
-    "name": "Dr. Marko Đorđević",
-    "title": "Specijalista ortopedije",
-    "experience": 10,
-    "image": "/images/doctors/doctor5.webp"
-  },
-  {
-    "id": 6,
-    "name": "Dr. Ana Stojanović",
-    "title": "Specijalista dermatologije",
-    "experience": 8,
-    "image": "/images/doctors/doctor6.webp"
+    "name": " Nadežda",
+    "title": "Kozmetičar.",
+    "experience": 5,
+    "image": "/images/doctors/doctor3.jpg",
+    "bio": "Akne, Staračke pege, Mezoterapija, čišćenje lica, aparatne tehnike, sveobuhvatna estetska nega kože, hemijski piling, laserske procedure, ultrazvučno i kombinovano čišćenje kože, mikrostruje, anti-aging i terapeutska nega.",
+    "doctorUrl": "/singledoc/3",
+    "education": [],
+    "about": []
   }
 ]

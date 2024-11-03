@@ -1,32 +1,73 @@
-import React from 'react'
+"use client";
+import React from "react";
+import Link from "next/link";
+import { useState, useRef } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 
-export default function DoctorCard({doctor}) {
+function formatTextLines(text) {
+  const sentences = text
+    .split(",")
+    .map((sentence) => sentence.trim())
+    .map((sentence) => sentence.charAt(0).toUpperCase() + sentence.slice(1)); 
+
+
+  if (sentences.length > 5) {
+    return sentences.slice(0, 5).join(",\n") + `...`;
+  }
+
+  return sentences.join(",\n");
+}
+
+export default function DoctorCard({ doctor }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const contentRef = useRef(null); 
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <>
-    <div className="bg-white rounded-tl-10xl w-3/4 p-16 rounded-br-10xl rounded-tr-4xl rounded-bl-4xl shadow-lg overflow-hidden flex flex-col items-center justify-between">
-      <div className="relative  rounded-full flex items-center justify-center mb-4">
-        <img
-          src={doctor.image}
-          alt={doctor.name}
-          className="h-44 w-44 rounded-full object-cover object-center"
-        />
+      <div className="flex flex-col h-full space-y-2 text-left mb-20">
+        <div>
+          <img className="w-full mx-auto" src={doctor.image} />
+        </div>
+        <div className="pt-5 pb-5">
+          <p className="headline text-3xl">{doctor.name.toUpperCase()}</p>
+        </div>
+        <div className="pb-5">
+          <p>{doctor.title.toUpperCase()}</p>
+        </div>
+        <div className="w-full flex flex-col">
+          <div
+            onClick={toggleExpand}
+            className="flex flex-row justify-between items-center w-full border-t cursor-pointer border-black p-3"
+          >
+            <p>ABOUT {doctor.name.toUpperCase()}</p>
+            <span>
+              <FontAwesomeIcon
+                icon={isExpanded ? faMinus : faPlus}
+                className={`transition-transform duration-500 ease-in-out transform ${isExpanded ? 'rotate-180' : 'rotate-0'}`}
+              />
+            </span>
+          </div>
+          <div
+            ref={contentRef}
+            className={`overflow-hidden transition-[max-height] duration-500 ease-in-out border-b border-black`}
+            style={{
+              maxHeight: isExpanded
+                ? `${contentRef.current?.scrollHeight}px`
+                : "0",
+              overflow: "hidden",
+            }}
+          >
+            <div className="text-ellipsis text-left pb-3 flex flex-col">
+              <p className="p-1">{doctor.about}</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="text-center">
-        <h3 className="text-2xl font-semibold mb-2 font-serif text-rose-500">
-          {doctor.name}
-        </h3>
-        <p className="text-yellow-700 mb-2 text-xl">{doctor.title}</p>
-        <p className="text-white bg-goldLogo p-1 w-3/4 mx-auto rounded-xl ">
-          Iskustvo: {doctor.experience} godina
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quam
-          debitis perferendis, ratione accusantium, dolorum sequi officiis illo
-          laudantium eaque obcaecati veniam soluta, libero quia asperiores
-          placeat minus tempora porro?
-        </p>
-      </div>
-    </div>
     </>
-  )
+  );
 }

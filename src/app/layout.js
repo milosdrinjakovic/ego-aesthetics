@@ -1,8 +1,26 @@
-import { Inter } from "next/font/google";
+import { Lato, Open_Sans,Poppins } from "next/font/google";
 import "./globals.css";
 import NavbarMain from "./components/NavbarMain";
+import CustomFooter from "./components/CustomFooter";
 
-const inter = Inter({ subsets: ["latin"] });
+const lato = Lato({
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '700', '900'],
+  variable: '--font-lato',
+});
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-open-sans',
+});
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['300','400', '700'],
+  variable: '--font-poppins',
+});
+
 
 export const metadata = {
   title: "Create Next App",
@@ -12,10 +30,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
+      <body className={`${poppins.variable} font-poppins`}>{children}
 
       <NavbarMain/>
-     
+      <CustomFooter/>
 
       </body>
     </html>

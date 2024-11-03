@@ -19,6 +19,41 @@
       "image": "/images/treatmants/treatman4.jpg",
       "description": "Ovo je kratak opis tretmana 3.",
       "detailsUrl": "/treatmants/3"
+    },
+    {
+      "id": 4,
+      "title": "Tretman 4",
+      "image": "/images/treatmants/treatman3.jpg",
+      "description": "Ovo je kratak opis tretmana 2.",
+      "detailsUrl": "/treatmants/4"
+    },
+    {
+      "id": 5,
+      "title": "Tretman 5",
+      "image": "/images/treatmants/treatman2.jpg",
+      "description": "Ovo je kratak opis tretmana 3.",
+      "detailsUrl": "/treatmants/5"
+    },
+    {
+      "id": 6,
+      "title": "Tretman 6",
+      "image": "/images/treatmants/treatman4.jpg",
+      "description": "Ovo je kratak opis tretmana 3.",
+      "detailsUrl": "/treatmants/3"
+    },
+    {
+      "id": 7,
+      "title": "Tretman 1",
+      "image": "/images/treatmants/treatman2.jpg",
+      "description": "Ovo je kratak opis tretmana 3.",
+      "detailsUrl": "/treatmants/3"
+    },
+    {
+      "id": 8,
+      "title": "Tretman 6",
+      "image": "/images/treatmants/treatman5.jpg",
+      "description": "Ovo je kratak opis tretmana 3.",
+      "detailsUrl": "/treatmants/3"
     }
    
   ]
