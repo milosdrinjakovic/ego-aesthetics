@@ -32,7 +32,14 @@
     "bio": "Biološke tretmane lica,anti-aging tretmane,masaže lica,aparaturne tretmane za telo i lice. ",
     "doctorUrl": "/singledoc/2",
     "education": [],
-    "about":    []
+ "about": [
+  "Stručnjak sa tri godine iskustva u poliklinikama.",
+  "Njena karijera je obeležena stalnim edukacijama i profesionalnim usavršavanjem.",
+  "Pohađala je brojne seminare i edukacije iz oblasti kozmetike lica, anti-aginga, kao i preparativne i aparativne kozmetike.",
+  "Veliki je poštovalac i korisnik profesionalne kozmetike Biologique Recherche, IsClinical i Obagi, čije je seminare i edukacije pohađala.",
+  "Uz profesionalnu posvećenost klijentima, ljubazno obraćanje i odgovornost, svaki zadovoljan klijent je njena najbolja referenca."
+]
+
   },
   {
     "id": 3,
@@ -43,6 +50,7 @@
     "bio": "Akne, Staračke pege, Mezoterapija, čišćenje lica, aparatne tehnike, sveobuhvatna estetska nega kože, hemijski piling, laserske procedure, ultrazvučno i kombinovano čišćenje kože, mikrostruje, anti-aging i terapeutska nega.",
     "doctorUrl": "/singledoc/3",
     "education": [],
-    "about": []
+    "about": [ "Posebna oblast interesovanja dr Volosine je briga o vašoj koži. ",
+    "Kao deo našeg stručnog tima tu je za sva vaša pitanja i konsultacije iz ove oblasti"]
   }
 ]

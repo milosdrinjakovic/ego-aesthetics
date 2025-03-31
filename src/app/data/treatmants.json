@@ -1,60 +1,532 @@
 [
-    {
-      "id": 1,
-      "title": "Tretman 1",
-      "image": "/images/treatmants/treatman6.jpg",
-      "description": "Ovo je kratak opis tretmana 1.",
-      "detailsUrl": "/treatmants/1"
-    },
-    {
-      "id": 2,
-      "title": "Tretman 2",
-      "image": "/images/treatmants/treatman5.jpg",
-      "description": "Ovo je kratak opis tretmana 2.",
-      "detailsUrl": "/treatmants/2"
-    },
-    {
-      "id": 3,
-      "title": "Tretman 3",
-      "image": "/images/treatmants/treatman4.jpg",
-      "description": "Ovo je kratak opis tretmana 3.",
-      "detailsUrl": "/treatmants/3"
-    },
-    {
-      "id": 4,
-      "title": "Tretman 4",
-      "image": "/images/treatmants/treatman3.jpg",
-      "description": "Ovo je kratak opis tretmana 2.",
-      "detailsUrl": "/treatmants/4"
-    },
-    {
-      "id": 5,
-      "title": "Tretman 5",
-      "image": "/images/treatmants/treatman2.jpg",
-      "description": "Ovo je kratak opis tretmana 3.",
-      "detailsUrl": "/treatmants/5"
-    },
-    {
-      "id": 6,
-      "title": "Tretman 6",
-      "image": "/images/treatmants/treatman4.jpg",
-      "description": "Ovo je kratak opis tretmana 3.",
-      "detailsUrl": "/treatmants/3"
-    },
-    {
-      "id": 7,
-      "title": "Tretman 1",
-      "image": "/images/treatmants/treatman2.jpg",
-      "description": "Ovo je kratak opis tretmana 3.",
-      "detailsUrl": "/treatmants/3"
-    },
-    {
-      "id": 8,
-      "title": "Tretman 6",
-      "image": "/images/treatmants/treatman5.jpg",
-      "description": "Ovo je kratak opis tretmana 3.",
-      "detailsUrl": "/treatmants/3"
-    }
-   
-  ]
+  {
+    "id": 1,
+    "title": "Nefertiti Lift – Lepota i mladost bez operacija",
+    "content": "Istaknite prirodnu gracioznost i eleganciju uz redefinisane konture vilice, zategnut vrat i dekolte. Inspirisana legendarnom egipatskom kraljicom Nefertiti, poznatom po svojoj bezvremenskoj lepoti i profinjenom profilu, ova inovativna metoda nehirurškog liftinga lica i vrata vraća definiciju i elastičnost koži, naglašavajući vašu prirodnu sofisticiranost.",
+    "sections": [
+      {
+        "heading": "Šta je Nefertiti lifting?",
+        "content": "Nefertiti lifting je napredna injekciona procedura koja konturiše oval lica, poboljšava tonus kože vrata i donje vilice, i pruža efekte podmlađivanja bez operacije. Postupak se temelji na primeni botulinum toksina (Botoks) u mišić platizme, čime se postiže opuštanje mišića odgovornih za spuštanje kontura lica. Rezultat? Glatka, zategnuta koža i izraženija linija vilice."
+      },
+      {
+        "heading": "Zašto izabrati Nefertiti lift?",
+        "content": "Vidljivi rezultati: Efekti se primećuju već nakon nekoliko dana i traju do 6 meseci. Podmlađivanje bez operacije: Oval lica postaje toniran, dok vrat i dekolte dobijaju mladalačku glatkoću. Minimalna nelagodnost: Zahvaljujući tankim iglama i stručnoj tehnici, bol tokom procedure je sveden na minimum.Kako izgleda procedura?"
+      }
+    ],
+    "bottomContent": "Pružite sebi kraljevski izgled dostojan Nefertiti – simbola bezvremenske elegancije i lepote!",
+    "FAQS": [
+      {
+        "heading": "Konsultacije",
+        "content": "Doktor procenjuje stanje vaše kože i kreira personalizovani plan."
+      },
+      {
+        "heading": "Primena",
+        "content": " Male doze botoksa pažljivo se ubrizgavaju u ključne oblasti lica i vrata."
+      },
+      {
+        "heading": "Rezultati",
+        "content": "Nakon tretmana, vaš profil će poprimiti precizniji oblik, dok će koža na vratu biti glatka, čvrsta i zategnuta. Nefertiti lift pruža prirodne rezultate, naglašavajući vašu lepotu na suptilan i sofisticiran način – bez hirurške intervencije."
+      }
+    ],
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 2,
+    "title": "Dermaplaning – Savršeno glatka i blistava koža",
+    "content": "Dermaplaning je popularna kozmetička procedura koja uklanja mrtve ćelije kože i neželjene dlačice s lica, otkrivajući svež, gladak i blistav ten. Ova nežna, neinvazivna metoda poboljšava teksturu kože, čineći je savršenom bazom za šminku i negu.",
+    "sections": [
+      {
+        "heading": "Šta je dermaplaning?",
+        "content": "Dermaplaning je profesionalni tretman koji koristi specijalni sterilni nožić za nežno uklanjanje površinskog sloja kože, zajedno sa \"breskvastim dlačicama\". Ova metoda ne samo da poboljšava teksturu kože, već i podstiče regeneraciju ćelija, omogućavajući vašem licu da zrači zdravim sjajem."
+      },
+      {
+        "heading": "Koje su prednosti dermaplaninga?",
+        "content": "Dubinsko čišćenje kože: Uklanja mrtve ćelije i dlačice, otkrivajući glatku i blistavu kožu.\nPoboljšava apsorpciju proizvoda: Serumima i kremama omogućava dublji i efikasniji učinak. \nSavršena podloga za šminku: Stvara idealnu osnovu za besprekorno nanošenje šminke. \nPodmlađujući efekat: Smanjuje vidljivost sitnih bora, tamnih fleka i ožiljaka od akni."
+      }
+    ],
+    "bottomContent": "Blistava i ujednačena, sa smanjenom pojavom nesavršenosti. Savršena podloga za šminku i negu.",
+    "FAQS": [
+      {
+        "heading": "Konsultacije",
+        "content": "Doktor procenjuje stanje vaše kože i kreira personalizovani plan."
+      },
+      {
+        "heading": "Primena",
+        "content": " Male doze botoksa pažljivo se ubrizgavaju u ključne oblasti lica i vrata."
+      },
+      {
+        "heading": "Rezultati",
+        "content": "Nakon tretmana, vaš profil će poprimiti precizniji oblik, dok će koža na vratu biti glatka, čvrsta i zategnuta. Nefertiti lift pruža prirodne rezultate, naglašavajući vašu lepotu na suptilan i sofisticiran način – bez hirurške intervencije."
+      }
+    ],
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 3,
+    "title": "Higijenski tretman lica – Osnova zdrave i negovane kože",
+    "content": "Vaša koža zaslužuje najbolju negu, a higijenski tretman lica je prvi korak ka čistom, zdravom i blistavom tenu. Ova profesionalna procedura uklanja nečistoće, mrtve ćelije kože i višak sebuma, omogućavajući vašem licu da diše i zrači svežinom.",
+    "sections": [
+      {
+        "heading": "Šta je higijenski tretman lica?",
+        "content": "Higijenski tretman lica je osnovna kozmetička procedura koja dubinski čisti pore, uklanja toksine i revitalizuje kožu. Namenjen je svim tipovima kože, bez obzira na starost, i predstavlja ključni korak u održavanju zdrave kože i prevenciji nesavršenosti poput mitesera, akni i proširenih pora."
+      },
+      {
+        "heading": "Prednosti higijenskog tretmana:",
+        "content": "Dubinsko čišćenje: Uklanja sve nečistoće i mrtve ćelije sa površine kože. \nPrevencija nesavršenosti: Smanjuje pojavu mitesera, akni i upala. \n Obnavljanje kože: Pospešuje regeneraciju i osvežava ten.\n Hidratacija i balans: Vraća koži vlažnost i prirodni sjaj.\n Priprema za druge tretmane: Pomaže u boljoj apsorpciji proizvoda za negu i priprema kožu za dalju terapiju."
+      }
+    ],
+    "bottomContent": "Nakon tretmana, vaša koža će biti čista, meka i osvežena, sa smanjenim nesavršenostima i zdravim, prirodnim sjajem. Redovnim tretmanima, vaša koža će ostati u savršenom balansu i zaštiti od svakodnevnih štetnih uticaja.",
+    "FAQS": [
+      {
+        "heading": "Priprema?",
+        "content": "Koža se temeljno čisti kako bi se uklonila šminka i površinske nečistoće."
+      },
+      {
+        "heading": "Eksfolijacija?",
+        "content": " Uklanjaju se mrtve ćelije kože pomoću blagih pilinga.Parenje i čišćenje pora: Pore se otvaraju blagim parenjem, nakon čega sledi uklanjanje mitesera i drugih nečistoća."
+      },
+      {
+        "heading": "Umirujuća maska?",
+        "content": "Nakon tretmana, vaš profil će poprimiti precizniji oblik, dok će koža na vratu biti glatka, čvrsta i zategnuta. Nefertiti lift pruža prirodne rezultate, naglašavajući vašu lepotu na suptilan i sofisticiran način – bez hirurške intervencije."
+      },
+      {
+        "heading": "Hidratacija i zaštita?",
+        "content": "Na kraju se nanosi hidratantna krema i zaštitni sloj kako bi se koža zaštitila od spoljašnjih uticaja."
+      },
+      {
+        "heading": "Kome je namenjen higijenski tretman?",
+        "content": "Da osveže svoj ten. \nDa smanje pojavu mitesera, akni i proširenih pora. \nDa poboljšaju teksturu kože i njen prirodni sjaj. \nDa pripreme kožu za posebne prilike ili druge tretmane."
+      }
+    ],
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 4,
+    "title": "Higijenski tretman leđa – Čista i negovana koža leđa",
+    "content": "Leđa su često zapostavljen deo tela u svakodnevnoj rutini nege kože, iako su podložna nakupljanju nečistoća, sebuma i nesavršenosti poput akni i mitesera. Higijenski tretman leđa je idealno rešenje za dubinsko čišćenje, osveženje i regeneraciju kože, pružajući osećaj čistoće i zdrav izgled.",
+    "sections": [
+      {
+        "heading": "Šta je higijenski tretman leđa?",
+        "content": "Higijenski tretman leđa je profesionalna kozmetička procedura koja dubinski čisti pore, uklanja mrtve ćelije kože i rešava problem nesavršenosti. Namenjen je svima koji žele glatku i zdravu kožu leđa, bilo da je reč o povremenom osveženju ili tretiranju specifičnih problema poput akni."
+      },
+      {
+        "heading": "Prednosti tretmana:",
+        "content": "Dubinsko čišćenje: Uklanja nečistoće, višak sebuma i mrtve ćelije kože.\n Poboljšanje teksture: Koža postaje glatka, mekana i ujednačena. \nRešavanje nesavršenosti: Smanjuje pojavu akni, mitesera i začepljenih pora. \nRegeneracija kože: Pospešuje obnavljanje kože i vraća joj zdrav sjaj. \nOpuštanje i nega: Pored čišćenja, tretman pruža osećaj relaksacije i osveženja."
+      }
+    ],
+    "bottomContent": "Nakon tretmana, vaša koža leđa biće dubinski očišćena, mekana i osvežena, sa smanjenim nesavršenostima. Redovni tretmani pomažu u održavanju zdravlja kože i sprečavanju budućih problema.",
+    "FAQS": [
+      {
+        "heading": "Priprema?",
+        "content": "Koža leđa se čisti specijalnim sredstvima za uklanjanje površinskih nečistoća."
+      },
+      {
+        "heading": "Eksfolijacija?",
+        "content": " Blag piling uklanja mrtve ćelije i priprema kožu za dublje čišćenje."
+      },
+      {
+        "heading": "Parenje i čišćenje pora?",
+        "content": "Otvaraju se pore i uklanjaju se nečistoće poput mitesera i sebuma."
+      },
+      {
+        "heading": "Umirujuća maska?",
+        "content": "Nanosi se maska koja hidrira i umiruje kožu, dok ujedno smanjuje crvenilo."
+      },
+      {
+        "heading": "Hidratacija?",
+        "content": "Na kraju se nanosi hidratantna krema kako bi koža bila nahranjena i zaštićena."
+      }
+    ],
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 5,
+    "title": "Hemijski piling – Obnova i osveženje vaše kože",
+    "content": "Leđa su često zapostavljen deo tela u svakodnevnoj rutini nege kože, iako su podložna nakupljanju nečistoća, sebuma i nesavršenosti poput akni i mitesera. Higijenski tretman leđa je idealno rešenje za dubinsko čišćenje, osveženje i regeneraciju kože, pružajući osećaj čistoće i zdrav izgled.",
+    "sections": [
+      {
+        "heading": "Šta je higijenski tretman leđa?",
+        "content": "Higijenski tretman leđa je profesionalna kozmetička procedura koja dubinski čisti pore, uklanja mrtve ćelije kože i rešava problem nesavršenosti. Namenjen je svima koji žele glatku i zdravu kožu leđa, bilo da je reč o povremenom osveženju ili tretiranju specifičnih problema poput akni."
+      },
+      {
+        "heading": "Prednosti tretmana:",
+        "content": "Dubinsko čišćenje: Uklanja nečistoće, višak sebuma i mrtve ćelije kože.\n Poboljšanje teksture: Koža postaje glatka, mekana i ujednačena. \nRešavanje nesavršenosti: Smanjuje pojavu akni, mitesera i začepljenih pora. \nRegeneracija kože: Pospešuje obnavljanje kože i vraća joj zdrav sjaj. \nOpuštanje i nega: Pored čišćenja, tretman pruža osećaj relaksacije i osveženja."
+      }
+    ],
+    "bottomContent": "Nakon tretmana, vaša koža leđa biće dubinski očišćena, mekana i osvežena, sa smanjenim nesavršenostima. Redovni tretmani pomažu u održavanju zdravlja kože i sprečavanju budućih problema.",
+    "FAQS": [
+      {
+        "heading": "Priprema?",
+        "content": "Koža leđa se čisti specijalnim sredstvima za uklanjanje površinskih nečistoća."
+      },
+      {
+        "heading": "Eksfolijacija?",
+        "content": " Blag piling uklanja mrtve ćelije i priprema kožu za dublje čišćenje."
+      },
+      {
+        "heading": "Parenje i čišćenje pora?",
+        "content": "Otvaraju se pore i uklanjaju se nečistoće poput mitesera i sebuma."
+      },
+      {
+        "heading": "Umirujuća maska?",
+        "content": "Nanosi se maska koja hidrira i umiruje kožu, dok ujedno smanjuje crvenilo."
+      },
+      {
+        "heading": "Hidratacija?",
+        "content": "Na kraju se nanosi hidratantna krema kako bi koža bila nahranjena i zaštićena."
+      }
+    ],
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 6,
+    "title": "Glikolni piling – Otkrijte blistavu i podmlađenu kožu",
+    "content": "Glikolni piling je jedan od najpopularnijih i najefikasnijih hemijskih pilinga, poznat po svojoj sposobnosti da dubinski obnavlja kožu i poboljša njen kvalitet. Zahvaljujući glikolnoj kiselini, koja pripada grupi alfa-hidroksi kiselina (AHA), ovaj tretman uklanja mrtve ćelije kože, ujednačava ten i pruža osvežen izgled.",
+    "sections": [
+      {
+        "heading": "Šta je glikolni piling?",
+        "content": "Glikolni piling koristi glikolnu kiselinu dobijenu iz šećerne trske. Zahvaljujući svojim molekulima koji prodiru duboko u kožu, ovaj piling uklanja površinski sloj oštećene kože, pospešuje regeneraciju ćelija i otkriva mekšu, glađu i blistaviju kožu ispod."
+      },
+      {
+        "heading": "Koje probleme rešava glikolni piling?",
+        "content": "Neujednačen ten: Ublažava tamne fleke i hiperpigmentaciju.Sitne bore: Smanjuje vidljivost prvih znakova starenja.Ožiljci od akni: Pomaže u izravnavanju površinskih ožiljaka. Gruba tekstura kože: Čini kožu glatkijom i mekšom. Začepljene pore: Dubinski čisti pore i smanjuje njihov izgled.Kako funkcioniše tretman?"
+      }
+    ],
+    "bottomContent": "Šta možete očekivati nakon tretmana? Nakon glikolnog pilinga, vaša koža će izgledati svežije, mekše i sjajnije. Blago crvenilo ili perutanje može se pojaviti u narednih nekoliko dana, što je znak da se koža regeneriše. Preporučuje se izbegavanje sunca i upotreba kreme sa SPF-om za optimalne rezultate.",
+
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 7,
+    "title": "Azelaični piling – Tretman za ujednačen i zdrav ten",
+    "content": "Azelaični piling je blagi hemijski tretman idealan za problematičnu i osetljivu kožu. Zahvaljujući azelaičnoj kiselini, ovaj piling deluje protiv akni, smanjuje crvenilo, ublažava hiperpigmentaciju i pruža koži ujednačen i osvežen izgled.",
+    "sections": [
+      {
+        "heading": "Prednosti azelaičnog pilinga:",
+        "content": "Efikasno smanjuje akne i sprečava nastanak novih. Ublažava crvenilo i iritacije kod rozacee. Posvetljuje tamne fleke i ujednačava ten.Pogodan za sve tipove kože, čak i osetljivu."
+      },
+      {
+        "heading": "Rezultat:",
+        "content": "Čista, glatka i umirena koža, sa smanjenim nesavršenostima i zdravim sjajem."
+      }
+    ],
+    "bottomContent": "Pogodan za sve tipove kože, čak i osetljivu.",
+
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 8,
+    "title": "Jessner piling – Dubinska regeneracija i osveženje kože",
+    "content": "Jessner piling je moćan hemijski tretman koji kombinuje mlečnu, salicilnu kiselinu i rezorcinol za dubinsko čišćenje, obnavljanje i podmlađivanje kože. Idealan je za rešavanje problema poput hiperpigmentacije, akni, bora i neujednačenog tena.",
+    "sections": [
+      {
+        "heading": "Prednosti Jessner pilinga:",
+        "content": "Smanjuje akne i kontroliše lučenje sebuma. Ublažava sitne bore i fleke od sunca. Poboljšava teksturu i ujednačava ten. Pospešuje regeneraciju kože za dugotrajne rezultate."
+      },
+      {
+        "heading": "Rezultat:",
+        "content": "Čista, glatka i umirena koža, sa smanjenim nesavršenostima i zdravim sjajem."
+      }
+    ],
+    "bottomContent": "Pogodan za sve tipove kože, čak i osetljivu.",
+
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 9,
+    "title": "Salicilni piling",
+    "content": "Salicilni piling je jedan od najefikasnijih tretmana za poboljšanje izgleda i zdravlja kože. Ovaj hemijski piling koristi salicilnu kiselinu, koja je poznata po svojim svojstvima u borbi protiv akni, smanjenju pora i poboljšanju teksture kože.",
+    "sections": [
+      {
+        "heading": "Kako Deluje?",
+        "content": "Salicilna kiselina prodire duboko u pore, otapa mrtve ćelije kože i višak sebuma, čime se smanjuje rizik od nastanka akni i upala. Osim toga, ovaj piling stimuliše regeneraciju kože, čime se podstiče proizvodnja novog kolagena i elastina, što rezultira glatkijom i mladalačkijom kožom."
+      },
+      {
+        "heading": "Koje su Prednosti?",
+        "content": "Smanjenje akni: Efikasno čisti pore i smanjuje upale. Poboljšanje teksture: Odlika glatke i ujednačene kože.Smanjenje ožiljaka: Pomaže u smanjenju vidljivosti ožiljaka od akni.Povećanje sjaja: Koža postaje blistavija i zdravija."
+      }
+    ],
+    "bottomContent": "Pogodan za sve tipove kože, čak i osetljivu.",
+
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 10,
+    "title": "Mlečni piling",
+    "content": "Mlečni piling je nežan i efikasan tretman koji koristi mlečne kiseline za postizanje glatke, blistave i zdravije kože. Ovaj piling je idealan za sve tipove kože, uključujući osetljivu, i pruža dubinsko čišćenje bez iritacije.",
+    "sections": [
+      {
+        "heading": "Kako Deluje?",
+        "content": "Mlečne kiseline, koje se prirodno nalaze u mleku, deluju kao eksfolijatori, uklanjajući mrtve ćelije kože i podstičući regeneraciju. Ovaj proces ne samo da poboljšava teksturu kože, već i pomaže u smanjenju finih linija, hiperpigmentacije i neujednačenog tena."
+      },
+      {
+        "heading": "Prednosti Mlečnog Pilinga?",
+        "content": "Dubinsko Hidratacija: Mlečni piling ne samo da čisti kožu, već je i dubinski hidrira, ostavljajući je mekom i glatkom.Povećanje Elastičnosti: Redovnim tretmanima, koža postaje čvrstai elastična.Smanjenje Stresa: Mlečni piling može pomoći u smanjenju stresa na koži, čime se smanjuje pojava iritacija i crvenila.Blistav Ten: Ovaj tretman osvežava kožu, čineći je sjajnijom i zdravijom."
+      }
+    ],
+    "bottomContent": "Pogodan za sve tipove kože, čak i osetljivu.",
+
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 11,
+    "title": "Mlečni piling",
+    "content": "Mlečni piling je nežan i efikasan tretman koji koristi mlečne kiseline za postizanje glatke, blistave i zdravije kože. Ovaj piling je idealan za sve tipove kože, uključujući osetljivu, i pruža dubinsko čišćenje bez iritacije.",
+    "sections": [
+      {
+        "heading": "Kako Deluje?",
+        "content": "Multi-peel piling koristi sinergiju različitih kiselina, uključujući AHA (alpha hydroxy acids) i BHA (beta hydroxy acids), kako bi se efikasno uklonile mrtve ćelije, višak sebuma i nečistoće. Ovaj tretman ne samo da poboljšava teksturu i tonus kože, već i podstiče regeneraciju, čime se smanjuje pojava finih linija, akni i hiperpigmentacije."
+      },
+      {
+        "heading": "Prednosti Multi-Peel Pilinga:",
+        "content": "Dubinska Eksfolijacija: Uklanja mrtve ćelije i čisti pore, ostavljajući kožu svežom i revitalizovanom.Povećanje Elastičnosti: Stimuliše proizvodnju kolagena, čime se poboljšava čvrstoća i elastičnost kože.Smanjenje Akni i Ožiljaka: Efikasan je u borbi protiv akni i smanjenju vidljivosti ožiljaka.Ujednačen Ten: Pomaže u smanjenju hiperpigmentacije i neujednačenog tona, čineći kožu blistavijom."
+      }
+    ],
+    "bottomContent": "Pogodan za sve tipove kože, čak i osetljivu.",
+
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 12,
+    "title": "PRX T-33 Tretman - Revolucija u Nezi Kože",
+    "content": "PRX T-33 je tretman koji kombinuje prednosti hemijskog pilinga i biorevitalizacije, pružajući vam jedinstveno rešenje za postizanje blistave, zdrave i mladalačke kože. Ovaj neinvazivni tretman je savršen za sve tipove kože i idealan je za rešavanje različitih problema, uključujući fine linije, ožiljke od akni, hiperpigmentaciju i opuštenu kožu.",
+    "sections": [
+      {
+        "heading": "Kako Deluje?",
+        "content": "PRX T-33 koristi formulu koja sadrži 33% TCA (trihloracetna kiselina) u kombinaciji sa vodonik-peroksidom. Ova jedinstvena kombinacija omogućava dubinsku eksfolijaciju bez klasičnog piling efekta, što znači da ne dolazi do iritacije ili crvenila. Tretman stimuliše proizvodnju kolagena i elastina, čime se poboljšava tekstura kože i smanjuje vidljivost bora."
+      },
+      {
+        "heading": "Prednosti PRX T-33 Tretmana:",
+        "content": "Instantni Rezultati: Već nakon prvog tretmana videćete poboljšanje u teksturi i tonu kože.Bez Oporavka: Tretman ne zahteva dug period oporavka, što ga čini savršenim za zauzete osobe.Povećana Hidratacija: PRX T-33 dubinski hidrira kožu, čineći je mekom i glatkom.Smanjenje Fine Linije i Bore: Efikasan je u smanjenju vidljivosti bora i finih linija, pružajući mladalački izgled."
+      }
+    ],
+    "bottomContent": "Pogodan za sve tipove kože, čak i osetljivu.",
+
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 13,
+    "title": "Hijaluronski fileri ",
+    "content": "Hijaluronski fileri su savremeno rešenje za osveženje i podmlađivanje vašeg lica, uz potpuno prirodan izgled. Zahvaljujući hijaluronskoj kiselini, koja se prirodno nalazi u našem telu, fileri hidratizuju kožu, vraćaju volumen i naglašavaju konture lica. Ova bezbedna i efikasna procedura pruža brze rezultate bez potrebe za operacijom.",
+    "sections": [
+      {
+        "heading": "Šta su hijaluronski fileri?",
+        "content": "Hijaluronski fileri su gelovi na bazi hijaluronske kiseline koji se ubrizgavaju u kožu kako bi: Popunili bore i fine linije.Vratili izgubljeni volumen licu.Konturisali jagodice, usne i vilicu.Hidratizovali kožu i poboljšali njen kvalitet."
+      },
+      {
+        "heading": "Prednosti hijaluronskih filera:",
+        "content": "Prirodni rezultati: Vaš izgled ostaje osvežen, ali ne i promenjen. Brza procedura: Tretman traje oko 30 minuta i ne zahteva oporavak.Dugotrajni efekti: Rezultati traju od 6 meseci do 2 godine, u zavisnosti od tipa filera.Bezbednost: Hijaluronska kiselina je biokompatibilna i potpuno bezbedna za upotrebu."
+      }
+    ],
+    "bottomContent": "Zategnuta, hidrirana i glatka koža.Definisane konture lica.Prirodno punije i lepo oblikovane usne.Podmlađen i svež izgled bez znakova umora.",
+
+    "treatmantTime": "30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 14,
+    "title": "Konturisanje i povećanje usana",
+    "content": "Konturisanje i povećanje usana koriste hijaluronske filere – sigurno i biokompatibilno rešenje.",
+    "sections": [
+      {
+        "heading": "Šta podrazumeva tretman?",
+        "content": "Naglašavanje kontura usana za definisaniji oblik. Hidratacija usana, čineći ih mekim i glatkim.Ispravljanje asimetrije za savršenu proporciju."
+      },
+      {
+        "heading": "Zašto izabrati ovaj tretman?",
+        "content": "Prirodni rezultati: Naše tehnike osiguravaju da vaše usne izgledaju osveženo, a ne prenaglašeno.Personalizovan pristup: Oblik i veličina usana prilagođavaju se vašem licu, kako bi izgled bio skladan."
+      }
+    ],
+    "bottomContent": "Zategnuta, hidrirana i glatka koža.Definisane konture lica.Prirodno punije i lepo oblikovane usne.Podmlađen i svež izgled bez znakova umora.",
+
+    "treatmantTime": "20-30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 15,
+    "title": "Podmlađivanje lica i dekoltea",
+    "content": "Koža lica i dekoltea često je prva na kojoj se primećuju znaci starenja, poput finih bora, gubitka elastičnosti i neujednačenog tena. Naša klinika nudi savremene tretmane za podmlađivanje ovih regija, kako biste povratili blistav i negovan izgled, uz zadržavanje prirodne lepote.",
+    "sections": [
+      {
+        "heading": "Šta podrazumeva podmlađivanje lica i dekoltea?",
+        "content": "Podmlađivanje lica i dekoltea uključuje neinvazivne i minimalno invazivne tretmane"
+      },
+      {
+        "heading": "Zašto izabrati ovaj tretman?",
+        "content": "Smanje vidljivost bora i linija. Poboljšaju teksturu i tonus kože. Podstaknu proizvodnju kolagena za dugotrajnije rezultate. Ujednače ten i smanje hiperpigmentaciju. Rehidrira kožu, čineći je čvrstom i blistavom.Najpopularniji tretmani za podmlađivanje:"
+      }
+    ],
+    "bottomContent": "Zategnuta, hidrirana i glatka koža.Definisane konture lica.Prirodno punije i lepo oblikovane usne.Podmlađen i svež izgled bez znakova umora.",
+
+    "treatmantTime": "20-30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 16,
+    "title": "Korekcija podočnjaka ",
+    "content": "Tamni kolutovi, udubljenja i oticanje podočnjaka često mogu učiniti da izgledate umorno i starije nego što se osećate. Korekcija podočnjaka je brz i efikasan tretman koji revitalizuje područje ispod očiju, vraća osvežen i odmoran izgled, i ističe lepotu vašeg pogleda.",
+    "sections": [
+      {
+        "heading": "Šta podrazumeva korekcija podočnjaka?",
+        "content": "Korekcija podočnjaka koristi filere kako bi se popunila udubljenja ispod očiju, smanjile tamne senke i hidratizovala koža. Ovaj neinvazivni tretman pruža trenutno osveženje, uz rezultate koji izgledaju prirodno i diskretno."
+      },
+      {
+        "heading": "Koje probleme rešava tretman?",
+        "content": "Udubljeni i izraženi podočnjaci. Tamni kolutovi ispod očiju.Suva i umorna koža ispod očiju.Neujednačen i beživotan izgled regije oko očiju."
+      }
+    ],
+    "bottomContent": "Zategnuta, hidrirana i glatka koža.Definisane konture lica.Prirodno punije i lepo oblikovane usne.Podmlađen i svež izgled bez znakova umora.",
+
+    "treatmantTime": "20-30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 17,
+    "title": "Konturisanje jagodica",
+    "content": "Savršeno definisane jagodice naglašavaju lepotu i daju licu sklad i mladalački izgled. Konturisanje jagodica hijaluronskim filerima omogućava vam da bez hirurške intervencije poboljšate oblik lica, dodate volumen i istaknete prirodne konture, uz rezultate koji izgledaju potpuno prirodno.",
+    "sections": [
+      {
+        "heading": "Šta je konturisanje jagodica?",
+        "content": "Konturisanje jagodica je tretman koji koristi hijaluronske filere za: Dodavanje volumena u predelu jagodica.Definisanje kontura lica za izraženiji oblik.Vraćanje punoće licu koja se gubi procesom starenja.Poboljšanje simetrije i balansa crta lica."
+      },
+      {
+        "heading": "Prednosti tretmana:",
+        "content": "Prirodni rezultati: Vaše jagodice izgledaju osveženo i skladno.Brz i siguran postupak: Tretman traje oko 20–30 minuta, bez perioda oporavka.Dugotrajni efekti: Rezultati traju od 9 meseci do 2 godine, u zavisnosti od filera.Minimalna nelagodnost: Postupak je gotovo bezbolan zahvaljujući anestetičkoj kremi."
+      }
+    ],
+    "bottomContent": "Zategnuta, hidrirana i glatka koža.Definisane konture lica.Prirodno punije i lepo oblikovane usne.Podmlađen i svež izgled bez znakova umora.",
+
+    "treatmantTime": "20-30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 18,
+    "title": "Popunjavanje bora",
+    "content": "Bore i fine linije prirodan su deo starenja, ali ne moraju da budu i deo vašeg svakodnevnog izgleda. Popunjavanje bora je savremen, brz i neinvazivan tretman koji uspešno smanjuje bore, vraća volumen i osvežava vašu kožu, čineći je zategnutom, glatkom i blistavom.",
+    "sections": [
+      {
+        "heading": "Šta podrazumeva popunjavanje bora?",
+        "content": "Ovaj tretman koristi hijaluronske filere ili druge biokompatibilne supstance za:Smanjenje bora i linija na licu.Vraćanje izgubljenog volumena.Podizanje i konturisanje regija lica zahvaćenih starenjem.Hidrataciju kože iznutra i pospešivanje njenog kvaliteta."
+      },
+      {
+        "heading": "Koje regije se najčešće tretiraju?",
+        "content": "Nazolabijalne bore: Bore između nosa i usana.Marionetske linije: Bore od uglova usana ka bradi.Bore čela: Horizontalne linije na čelu.Linije između obrva: Popularno poznate kao \"bore mrštenja\". Bore oko očiju: Fine linije oko spoljašnjih uglova očiju."
+      }
+    ],
+    "bottomContent": "Bore i linije postaju manje vidljive ili potpuno nestaju.Lice izgleda odmorno, osveženo i prirodno podmlađeno.Koža je hidrirana, glatka i zategnuta.",
+
+    "treatmantTime": "20-30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 19,
+    "title": "Podmlađivanje šaka ",
+    "content": "Koža na šakama često odaje godine više nego lice. Izložena svakodnevnim spoljnim uticajima poput sunca, vetra i hemikalija, koža šaka gubi volumen, elastičnost i glatkoću. Podmlađivanje šaka je tretman koji obnavlja njihov izgled, čineći ih nežnim, hidriranim i mladalačkim.",
+    "sections": [
+      {
+        "heading": "Šta je podmlađivanje šaka?",
+        "content": "Podmlađivanje šaka je skup tretmana koji pomažu u:Obnavljanju volumena na šakama.Ujednačavanju tona kože i smanjenju pigmentacija.Povećanju elastičnosti i hidratacije kože.Smanjenju vidljivosti vena i tetiva koje se javljaju starenjem"
+      },
+      {
+        "heading": "Prednosti tretmana:",
+        "content": "rirodni rezultati: Vaše šake izgledaju osveženo i mladalački.Brza procedura: Tretmani su jednostavni i ne zahtevaju oporavak.Dugotrajni efekti: Uz adekvatnu negu, rezultati se održavaju mesecima.Poboljšanje kvaliteta kože: Koža postaje mekša, hidrirana i zdravijeg izgleda."
+      }
+    ],
+    "bottomContent": "Bore i linije postaju manje vidljive ili potpuno nestaju.Lice izgleda odmorno, osveženo i prirodno podmlađeno.Koža je hidrirana, glatka i zategnuta.",
+
+    "treatmantTime": "20-30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  },
+  {
+    "id": 20,
+    "title": "Podizanje obraza",
+    "content": "Obrazi igraju ključnu ulogu u definiciji kontura lica i njegovom svežem, mladalačkom izgledu. Starenjem koža gubi elastičnost i volumen, što može dovesti do spuštenih obraza i nejasnih kontura. Podizanje obraza je savremeni tretman koji vraća punoću, zateže kožu i osvežava izgled lica na prirodan i siguran način.",
+    "sections": [
+      {
+        "heading": "Šta je podizanje obraza?",
+        "content": "Podizanje obraza podrazumeva minimalno invazivne tretmane koji:Vraćaju volumen u srednjem delu lica.Podižu obraze i zatežu opuštenu kožu.Poboljšavaju konture lica i balans crta.Ublažavaju nazolabijalne bore i marionetske linije.Koji tretmani su dostupni?"
+      },
+      {
+        "heading": "Prednosti tretmana:",
+        "content": "rirodni rezultati: Vaše šake izgledaju osveženo i mladalački.Brza procedura: Tretmani su jednostavni i ne zahtevaju oporavak.Dugotrajni efekti: Uz adekvatnu negu, rezultati se održavaju mesecima.Poboljšanje kvaliteta kože: Koža postaje mekša, hidrirana i zdravijeg izgleda."
+      }
+    ],
+    "bottomContent": "Bore i linije postaju manje vidljive ili potpuno nestaju.Lice izgleda odmorno, osveženo i prirodno podmlađeno.Koža je hidrirana, glatka i zategnuta.",
+
+    "treatmantTime": "20-30min",
+    "downtime": "ne zahteva period oporavka",
+    "image": "/images/treatmants/treatman6.jpg",
+    "description": "Ovo je kratak opis tretmana 1.",
+    "detailsUrl": "/treatmants/1"
+  }
   
+]

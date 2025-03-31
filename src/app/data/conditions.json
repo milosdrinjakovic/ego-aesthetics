@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "title": "Koža ruku",
+    "categoryId": 1,
+    "description": "Starenje je prirodan proces koji sa sobom nosi mnoge promene u telu. Jedna od najvidljivijih promena često se dešava na koži, posebno na rukama. Dok mnogi od nas pažljivo neguju kožu na licu kako starimo, ruke često zanemarujemo. S vremenom, na rukama se mogu javiti različite estetske promene. Koža može postati suvlja i tanja, a njen izgled grublji i opušteniji. Takođe, vene postaju vidljivije jer koža gubi debljinu i postaje prozirnija. Smanjuje se i volumen kože, što čini ruke da izgledaju mršavo i krhko. Pored toga, mogu se pojaviti staračke pege, ožiljci od sunca ili promene u pigmentaciji.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/hands1.jpg",
+      "/images/conditions/conditions-detail/hands2.jpg"
+
+    ]
+
+  },
+  {
+    "id": 2,
+    "title": "Linije i bore",
+    "categoryId": 1,
+    "description": "Starenje je prirodan proces koji sa sobom nosi mnoge promene u telu. Jedna od najvidljivijih promena često se dešava na koži, posebno na rukama. Dok mnogi od nas pažljivo neguju kožu na licu kako starimo, ruke često zanemarujemo. S vremenom, na rukama se mogu javiti različite estetske promene. Koža može postati suvlja i tanja, a njen izgled grublji i opušteniji. Takođe, vene postaju vidljivije jer koža gubi debljinu i postaje prozirnija. Smanjuje se i volumen kože, što čini ruke da izgledaju mršavo i krhko. Pored toga, mogu se pojaviti staračke pege, ožiljci od sunca ili promene u pigmentaciji.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/linije-bore1.jpg",
+      "/images/conditions/conditions-detail/linije-bore2.jpg"
+
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Suva ili dehidrirana koža",
+    "categoryId": 1,
+    "description": "Dehidrirana koža je stanje koje se javlja kada u koži nedostaje vode. Ovo se može dogoditi svakome, bez obzira na tip kože - ljudi sa masnom ili kombinovanom kožom i dalje mogu doživeti dehidraciju. Dehidrirana koža obično izgleda umorno i može pokazati preuranjene znake starenja, poput površinskih bora i gubitka elastičnosti. Kod suve kože voda nije problem.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/dehidrirana-koza1.jpg",
+      "/images/conditions/conditions-detail/dehidrirana-koza2.jpg"
+
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Gubitak elastičnosti",
+    "categoryId": 1,
+    "description": "Elastičnost kože je nešto sa čime će se svako suočiti u nekom trenutku svog života zbog prirodnog procesa starenja. Pored starenja, postoje i drugi faktori koji mogu igrati ulogu u opuštenosti kože, kao što su unutrašnji i ekstrinzični faktori, genetika, ishrana, način života, izlaganje suncu, stres i pušenje. Ponekad pridržavanje zdrave dijete i režima vežbanja nije dovoljno za ciljanje opuštenosti kože. Postoje dve vitalne komponente strukture kože koje utiču na opuštenost; kolagen i elastin",
+    "imageURL": [
+      "/images/conditions/conditions-detail/elasticnost1.jpg",
+      "/images/conditions/conditions-detail/elasticnost2.jpg"
+
+    ]
+  },
+
+  {
+    "id": 5,
+    "title": "Staračke pege",
+    "categoryId": 2,
+
+    "description": "Staračke pege su male, ravne tamne površine na koži. Razlikuju se po veličini i obično se pojavljuju na područjima izloženim suncu, kao što su lice, ruke, ramena i ruke. Staračke pege se nazivaju i sunčeve pege, pege na jetri i solarne lentigine. Staračke pege su veoma česte kod odraslih starijih od 50 godina, ali mlađi ljudi ih mogu dobiti ako provode vreme na suncu.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/staracke-pege1.jpg",
+      "/images/conditions/conditions-detail/staracke-pege2.jpg"
+
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Crvenilo kože",
+    "categoryId": 2,
+    "description": "Uzroci ovog stanja nisu u potpunosti shvaćeni i, nažalost, trenutno ne postoji trajni lek. Jasno je, međutim, da će se stanje pogoršati ako se ne leči. A pošto je tako vidljiva, rozacea može izazvati ozbiljne psihičke probleme. Na pacijente takođe mogu uticati društvene stigme koje mogu uključivati da ih se percipira kao alkoholičare ili da imaju lošu higijenu.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/crvenilo1.jpg",
+      "/images/conditions/conditions-detail/crvenilo2.jpg"
+
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Pigmentacija",
+    "categoryId": 2,
+    "description": "Pigmentacija je široko stanje za negu kože, koje se generalno odnosi na svetle ili tamne nepravilne mrlje na koži - to se može pojaviti u manjim ili većim mrljama zbog prekomerne proizvodnje melanina koji se neravnomerno raspršuje. Pigmentacija je krovni termin koji pokriva hiperpigmentaciju, melazmu i staračke pege.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/pigmentacija1.jpg",
+      "/images/conditions/conditions-detail/pigmentacija2.jpg"
+
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Oštećenja od sunca",
+    "categoryId": 2,
+    "description": "Sunce ima dubok uticaj tokom godina izlaganja na koži, izazivajući prerano starenje kože, rak kože i mnoge druge promene na koži. Izlaganje suncu ultraljubičastom (UV) zračenju uzrokuje većinu prevremenog starenja kože. Mnoge promene na koži za koje se obično verovalo da su posledica starenja, kao što su lake modrice, zapravo su rezultat dužeg izlaganja suncu.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/ostecenje-suncem1.jpg",
+      "/images/conditions/conditions-detail/ostecenje-suncem2.jpg"
+
+    ]
+  },
+
+  {
+    "id": 8,
+    "title": "Ožiljci od akni",
+    "categoryId": 3,
+    "description": "Ožiljci od akni se ponekad mogu razviti kao komplikacija akni. Bilo koja vrsta mrlja od akni može dovesti do ožiljaka, ali je češća kada najozbiljnije vrste mrlja (čvorovi i ciste) puknu i oštete obližnju kožu. Ožiljci se takođe mogu pojaviti ako pokupite ili stisnete svoje akne, tako da je važno da to ne radite. Najozbiljniji ožiljci su uzrokovani težim oblicima akni, pri čemu je veća verovatnoća da će čvorovi ostaviti trajne ožiljke nego druge vrste akni.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/akne1.jpg",
+      "/images/conditions/conditions-detail/akne2.jpg"
+
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Vene na licu",
+    "categoryId": 3,
+    "description": "Neki ljudi imaju tendenciju da razviju paukove vene više od drugih. Činjenica je da se slomljeni krvni sudovi mogu desiti svakome u bilo kom uzrastu, uključujući i decu. Postoji mnogo uzroka slomljenih krvnih sudova na licu.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/vene1.jpg",
+      "/images/conditions/conditions-detail/vene2.jpg"
+
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Akne",
+    "categoryId": 3,
+    "description": "Akne su uobičajeno stanje kože koje pogađa većinu ljudi u nekom trenutku. To uzrokuje fleke, masnu kožu i ponekad kožu koja je vruća ili bolna na dodir. Akne su veoma česte i iako uglavnom pogađaju tinejdžere, mogu se razviti i kod odraslih. Za mnoge ljude koji imaju akne, kožna bolest utiče više od njihovog izgleda."
+  },
+  {
+    "id": 11,
+    "title": "Milia",
+    "categoryId": 3,
+    "description": "Milijumi se javljaju kada keratin ostane zarobljen ispod površine kože. Keratin je jak protein koji se obično nalazi u tkivima kože, kosi i ćelijama noktiju. Milia se može javiti kod ljudi svih nacionalnosti ili uzrasta. Ponekad se milije zamenjuju za bele tačke ili bubuljice, ali to nisu mrlje.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/milia1.jpg",
+      "/images/conditions/conditions-detail/milia2.jpg"
+
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Začepljene pore",
+    "categoryId": 3,
+    "description": "Proširene ili začepljene pore su otvori za folikule dlake na vašoj koži. Za ove folikule su vezane lojne žlezde. Ove žlezde proizvode prirodno ulje zvano sebum koje održava vašu kožu vlažnom. Iako su pore neophodne za zdravlje vaše kože, one mogu biti različitih veličina. Često su pore na nosu, bradi i čelu prirodno veće od onih koje se nalaze na drugim delovima kože. To je zato što su lojne žlezde ispod njih takođe veće.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/pore1.jpg",
+      "/images/conditions/conditions-detail/pore2.jpg"
+
+    ]
+  },
+
+  {
+    "id": 13,
+    "title": "Migrene",
+    "categoryId": 4,
+    "description": "Migrena je obično umerena ili jaka glavobolja koja se oseća kao pulsirajući bol na jednoj strani glave. Mnogi ljudi takođe imaju simptome kao što su mučnina i povećana osetljivost na svetlost ili zvuk. Migrena je uobičajeno zdravstveno stanje koje pogađa oko 1 od svakih 5 žena i oko 1 od svakih 15 muškaraca.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/migrene1.jpg",
+      "/images/conditions/conditions-detail/migrene2.jpg"
+
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Hiperhidroza",
+    "categoryId": 4,
+
+    "description": "Hiperhidroza je nenormalno prekomerno znojenje koje nije nužno povezano sa toplotom ili vežbanjem. Možda se znojite toliko da vam se upije kroz odeću ili kaplje sa ruku. Osim što ometa normalne dnevne aktivnosti, ova vrsta jakog znojenja može izazvati društvenu anksioznost i sramotu. Ako antiperspiranti ne pomognu, možda ćete morati da isprobate različite lekove i terapije.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/hiperhidroza1.jpg",
+      "/images/conditions/conditions-detail/hiperhidroza2.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Celulit",
+    "categoryId": 4,
+
+    "description": "Celulit je veoma uobičajeno, bezopasno stanje kože koje uzrokuje kvrgavo meso sa udubljenjem na butinama, bokovima, zadnjici i stomaku. Stanje je najčešće kod žena. Lečenje nije neophodno. Ali ako ste zabrinuti za izgled vaše kože, u našoj klinici imamo nekoliko opcija za lečenje.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/celulit1.jpg",
+      "/images/conditions/conditions-detail/celulit2.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Milia",
+    "categoryId": 3,
+
+    "description": "Milijumi se javljaju kada keratin ostane zarobljen ispod površine kože. Keratin je jak protein koji se obično nalazi u tkivima kože, kosi i ćelijama noktiju. Milia se može javiti kod ljudi svih nacionalnosti ili uzrasta. Ponekad se milije zamenjuju za bele tačke ili bubuljice, ali to nisu mrlje."
+  },
+  {
+    "id": 17,
+    "title": "Začepljene pore",
+    "categoryId": 4,
+
+    "description": "Proširene ili začepljene pore su otvori za folikule dlake na vašoj koži. Za ove folikule su vezane lojne žlezde. Ove žlezde proizvode prirodno ulje zvano sebum koje održava vašu kožu vlažnom. Iako su pore neophodne za zdravlje vaše kože, one mogu biti različitih veličina. Često su pore na nosu, bradi i čelu prirodno veće od onih koje se nalaze na drugim delovima kože. To je zato što su lojne žlezde ispod njih takođe veće."
+  },
+  {
+    "id": 18,
+    "title": "Višak masnoće",
+    "categoryId": 4,
+
+    "description": "Telo osobe će stvoriti masne ćelije u samo dve razvojne faze u životu. Prva faza se javlja tokom embrionalnog razvoja in utero (razvoj u materici). Druga faza razvoja se javlja kada osoba prođe kroz pubertet. Skidanje viška kilograma može se pokazati teškim jer su genetika, starost, ishrana i gubitak pokretljivosti faktori rizika za nakupljanje masti. Prečesto pojedinci traže alternativne opcije kao što je liposukcija kako bi uklonili višak i/ili neželjenu masnoću.",
+    "imageURL": [
+      "/images/conditions/conditions-detail/visak-masnoce1.jpg",
+      "/images/conditions/conditions-detail/visak-masnoce2.jpg"
+    ]
+  }
+
+]

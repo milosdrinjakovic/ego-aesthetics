@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "Estetski Tretmani",
+    "image": "/images/treatmants/Aesthetic_treatments.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Hemijski Pilinzi",
+    "image": "/images/treatmants/Skin_chemical_peel.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Hijaluronski Fileri",
+    "image": "/images/treatmants/Hyaluronic_fillers.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Botoks Tretmani",
+    "image": "/images/treatmants/Botox_treatment.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Regenerativni Tretmani",
+    "image": "/images/treatmants/Regenerative_treatments.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Laserski Tretmani",
+    "image": "/images/treatmants/Laser_antiage.jpg"
+  },
+  {
+    "id": 7,
+    "title": "IV Terapija",
+    "image": "/images/treatmants/IV_therapy.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Masaže",
+    "image": "/images/treatmants/Massage.jpg"
+  }
+]
+

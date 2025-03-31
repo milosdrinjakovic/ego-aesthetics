@@ -1,0 +1,671 @@
+{
+  "treatments": {
+    "cosmetic_treatments": [
+      {
+        "id": 1,
+        "name": "Karbon piling",
+        "alternative_name": "Holivudski piling",
+        "description": "Savremena neinvazivna metoda koja dubinski čisti kožu, smanjuje lučenje sebuma, sužava pore i podstiče regeneraciju kože",
+        "suitable_for": [
+          "Sve tipove kože",
+          "Osobe sa masnom i problematičnom kožom",
+          "Osobe sa beživotnom kožom sklonom aknama",
+          "Osobe sa proširenim porama"
+        ],
+        "treatment_phases": [
+          {
+            "name": "Nanošenje ugljenične maske",
+            "description": "Posebna maska na bazi medicinskog uglja nanosi se na lice, gde prodire duboko u pore i vezuje se za nečistoće"
+          },
+          {
+            "name": "Lasersko delovanje",
+            "description": "Laser aktivira masku i uklanja je zajedno sa nečistoćama, dok istovremeno podstiče proizvodnju kolagena i elastina"
+          }
+        ],
+        "benefits": [
+          "Dubinsko čišćenje i detoksikacija kože",
+          "Regulacija lučenja sebuma i sužavanje pora",
+          "Smanjenje akni i sprečavanje nastanka novih nepravilnosti",
+          "Ujednačavanje tena i smanjenje hiperpigmentacija",
+          "Podsticanje prirodne regeneracije kože",
+          "Bezbolan tretman bez perioda oporavka"
+        ],
+        "recommended_sessions": "3-5 tretmana"
+      },
+      {
+        "id": 2,
+        "name": "Neoderma Bio Peeling Floret Edition",
+        "description": "Neinvazivni biološki piling na bazi 100% prirodnih sastojaka",
+        "suitable_for": [
+          "Sve tipove kože",
+          "Osobe koje žele osvežen i ujednačen ten",
+          "Osobe sa hiperpigmentacijama i ožiljcima od akni",
+          "Osobe sa suvom i osetljivom kožom"
+        ],
+        "treatment_phases": [
+          {
+            "name": "Nježna eksfolijacija",
+            "description": "Prirodni biljni sastojci uklanjaju mrtve ćelije"
+          },
+          {
+            "name": "Dubinska regeneracija",
+            "description": "Aktivne komponente prodiru u dublje slojeve kože"
+          },
+          {
+            "name": "Hidratacija i umirenje",
+            "description": "Esencijalna ulja i antioksidansi hrane i umiruju kožu"
+          }
+        ],
+        "recommended_sessions": "3-5 tretmana"
+      },
+      {
+        "id": 3,
+        "name": "Neoderma Bio-Lift",
+        "description": "Inovativna neinvazivna anti-age terapija za prirodno podizanje i regeneraciju kože",
+        "suitable_for": [
+          "Sve tipove kože",
+          "Osobe koje žele prirodni lifting bez igala",
+          "Osobe sa gubitkom elastičnosti kože",
+          "Osobe sa borama i finim linijama"
+        ],
+        "benefits": [
+          "Prirodni lifting efekat bez igala i hirurških zahvata",
+          "Smanjenje finih linija i bora",
+          "Poboljšanje tonusa i elastičnosti kože",
+          "Dubinska hidratacija i revitalizacija kože"
+        ],
+        "recommended_sessions": "4-6 tretmana"
+      },
+      {
+        "id": 4,
+        "name": "Neoderma Neo-Marine Tretman",
+        "description": "Luksuzna regeneracija kože koja kombinuje morske ekstrakte i antioksidanse",
+        "suitable_for": [
+          "Sve tipove kože",
+          "Umornu i dehidriranu kožu",
+          "Kožu sklonu iritacijama"
+        ],
+        "benefits": [
+          "Intenzivna hidratacija i osveženje kože",
+          "Smanjenje crvenila i iritacija",
+          "Obnova i jačanje zaštitne barijere kože",
+          "Podsticanje prirodne regeneracije ćelija",
+          "Ujednačen i blistav ten"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Cog Niti",
+        "description": "Revolucionarna metoda podmlađivanja i zatezanja kože pomoću biokompatibilnih niti sa kukicama",
+        "treatment_duration": "30-60 minuta",
+        "results_duration": "12-24 meseca",
+        "benefits": [
+          "Prirodno podizanje i zatezanje kože",
+          "Poboljšanje tonusa i elastičnosti",
+          "Bez operacije, ožiljaka i dugog oporavka",
+          "Poboljšava konture lica i smanjuje bore"
+        ],
+        "suitable_for": [
+          "Zatezanje jagodica i podizanje lica",
+          "Definisanje vilice i smanjenje opuštene kože",
+          "Podmlađivanje vrata i regije ispod brade"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Nefertiti Lift",
+        "description": "Nehirurška metoda za redefinisanje kontura vilice i zatezanje vrata.",
+        "benefits": [
+          "Vidljivi rezultati nakon nekoliko dana",
+          "Podmlađivanje bez operacije",
+          "Minimalna nelagodnost"
+        ],
+        "procedure": [
+          "Konsultacije i procena kože",
+          "Primena botoksa u mišić platizme",
+          "Trajanje oko 30 minuta"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Dermaplaning",
+        "description": "Neinvazivna metoda za uklanjanje mrtvih ćelija kože i neželjenih dlačica.",
+        "benefits": [
+          "Dubinsko čišćenje kože",
+          "Poboljšava apsorpciju proizvoda",
+          "Savršena podloga za šminku"
+        ],
+        "procedure": [
+          "Priprema kože",
+          "Uklanjanje površinskog sloja kože",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Higijenski tretman lica",
+        "description": "Profesionalna procedura za dubinsko čišćenje i revitalizaciju kože.",
+        "benefits": [
+          "Dubinsko čišćenje",
+          "Prevencija nesavršenosti",
+          "Obnavljanje kože"
+        ],
+        "procedure": [
+          "Priprema i čišćenje kože",
+          "Eksfolijacija i parenje",
+          "Umirujuća maska i hidratacija"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Higijenski tretman leđa",
+        "description": "Dubinsko čišćenje i osveženje kože leđa.",
+        "benefits": [
+          "Dubinsko čišćenje",
+          "Poboljšanje teksture",
+          "Rešavanje nesavršenosti"
+        ],
+        "procedure": [
+          "Priprema i čišćenje kože",
+          "Eksfolijacija i parenje",
+          "Umirujuća maska i hidratacija"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Hemijski piling",
+        "description": "Tretman za uklanjanje oštećenih slojeva kože i podsticanje regeneracije.",
+        "benefits": [
+          "Neujednačen ten i tamne fleke",
+          "Sitne bore i linije",
+          "Akne i ožiljci od akni"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Nanošenje kiseline",
+          "Neutralizacija i nega"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Glikolni piling",
+        "description": "Dubinska obnova kože glikolnom kiselinom.",
+        "benefits": [
+          "Neujednačen ten",
+          "Sitne bore",
+          "Ožiljci od akni"
+        ],
+        "procedure": [
+          "Priprema i nanošenje",
+          "Delovanje kiseline",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Azelaični piling",
+        "description": "Blagi hemijski tretman za problematičnu kožu.",
+        "benefits": [
+          "Smanjuje akne",
+          "Ublažava crvenilo",
+          "Posvetljuje tamne fleke"
+        ],
+        "procedure": [
+          "Priprema kože",
+          "Nanošenje azelaične kiseline",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Jessner piling",
+        "description": "Dubinska regeneracija kože kombinacijom kiselina.",
+        "benefits": [
+          "Smanjuje akne",
+          "Ublažava sitne bore",
+          "Poboljšava teksturu"
+        ],
+        "procedure": [
+          "Priprema kože",
+          "Nanošenje kiselina",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Salicilni piling",
+        "description": "Efikasan tretman za poboljšanje izgleda kože.",
+        "benefits": [
+          "Smanjenje akni",
+          "Poboljšanje teksture",
+          "Smanjenje ožiljaka"
+        ],
+        "procedure": [
+          "Priprema kože",
+          "Nanošenje salicilne kiseline",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Mlečni piling",
+        "description": "Nežan tretman mlečnim kiselinama za glatku kožu.",
+        "benefits": [
+          "Dubinsko hidratacija",
+          "Povećanje elastičnosti",
+          "Blistav ten"
+        ],
+        "procedure": [
+          "Priprema kože",
+          "Nanošenje mlečnih kiselina",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Multi-peel piling",
+        "description": "Inovativni tretman kombinacijom kiselina.",
+        "benefits": [
+          "Dubinska eksfolijacija",
+          "Povećanje elastičnosti",
+          "Ujednačen ten"
+        ],
+        "procedure": [
+          "Priprema kože",
+          "Nanošenje kombinacije kiselina",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "PRX T-33 Tretman",
+        "description": "Kombinacija hemijskog pilinga i biorevitalizacije.",
+        "benefits": [
+          "Instantni rezultati",
+          "Bez oporavka",
+          "Povećana hidratacija"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Nanošenje tretmana",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Hijaluronski fileri",
+        "description": "Savremeno rešenje za osveženje i podmlađivanje lica.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Brza procedura",
+          "Dugotrajni efekti"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Injektovanje filera",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Konturisanje i povećanje usana",
+        "description": "Neinvazivan tretman za naglašavanje lepote usana.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Personalizovan pristup",
+          "Brz postupak"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Osveženje usana",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Podmlađivanje lica i dekoltea",
+        "description": "Savremeni tretmani za blistav izgled lica i dekoltea.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Minimalni oporavak",
+          "Dugotrajni efekti"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Tretman",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Korekcija podočnjaka",
+        "description": "Brz i efikasan tretman za revitalizaciju područja ispod očiju.",
+        "benefits": [
+          "Brz i bezbolan tretman",
+          "Prirodni i dugotrajni rezultati",
+          "Poboljšava ukupni izgled lica"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Injektovanje filera",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Konturisanje jagodica",
+        "description": "Tretman hijaluronskim filerima za poboljšanje oblika lica.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Brz i siguran postupak",
+          "Dugotrajni efekti"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Injektovanje filera",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Popunjavanje bora",
+        "description": "Savremen tretman za smanjenje bora i osveženje kože.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Brzo i efikasno",
+          "Dugotrajni efekti"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Injektovanje filera",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Podmlađivanje šaka",
+        "description": "Tretman za obnavljanje izgleda šaka.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Brza procedura",
+          "Dugotrajni efekti"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Tretman",
+          "Nega nakon tretmana"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Podizanje obraza",
+        "description": "Savremeni tretman za vraćanje punoće i zatezanje kože obraza.",
+        "benefits": [
+          "Prirodni izgled",
+          "Brži rezultati",
+          "Minimalno invazivno"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Tretman",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Uklanjanje nazolabijalnih bora",
+        "description": "Brz i efikasan tretman za osvežavanje lica.",
+        "benefits": [
+          "Brzi rezultati",
+          "Prirodni izgled",
+          "Minimalno invazivno"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Tretman",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Konturisanje vilice i brade",
+        "description": "Tretman hijaluronskim filerima za naglašavanje kontura lica.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Brz postupak",
+          "Bezbolan"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Injektovanje filera",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Popunjavanje temporalnih jama",
+        "description": "Tretman hijaluronskim filerima za vraćanje volumena.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Brza procedura",
+          "Bezbolan"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Injektovanje filera",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Hijaluronidaza",
+        "description": "Sigurno i efikasno uklanjanje hijaluronskih filera.",
+        "benefits": [
+          "Brzi rezultati",
+          "Siguran postupak",
+          "Bezbolan tretman"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Aplikacija hijaluronidaze",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Botoks",
+        "description": "Popularan tretman za smanjenje bora i osveženje lica.",
+        "benefits": [
+          "Prirodni rezultati",
+          "Brz tretman",
+          "Bez oporavka"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Aplikacija botoksa",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Hiperhidroza",
+        "description": "Tretman za kontrolu prekomernog znojenja.",
+        "benefits": [
+          "Efikasno smanjuje znojenje",
+          "Brza procedura",
+          "Dugotrajni efekti"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Aplikacija botoksa",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Botoks i migrena",
+        "description": "Tretman botoksom za smanjenje učestalosti migrena.",
+        "benefits": [
+          "Smanjenje broja napada",
+          "Olakšanje bola",
+          "Brz i jednostavan tretman"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Aplikacija botoksa",
+          "Završni korak"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Zatezanje kože kolena i laktova",
+        "description": "Tretman za poboljšanje čvrstine i glatkoće kože.",
+        "benefits": [
+          "Zategnu opuštenu kožu",
+          "Poboljšaju teksturu",
+          "Povećaju proizvodnju kolagena"
+        ],
+        "procedure": [
+          "Konsultacija i priprema",
+          "Tretman",
+          "Završni korak"
+        ]
+      }
+    ],
+    "iv_therapy": {
+      "id": 34,
+      "name": "IV Terapija",
+      "description": "Najbrži i najefikasniji način unosa esencijalnih nutrijenata",
+      "treatment_duration": "30-60 minuta",
+      "benefits": [
+        "Brza i potpuna apsorpcija vitamina i minerala",
+        "Dubinska hidratacija i detoksikacija organizma",
+        "Jačanje imuniteta i otpornosti na stres",
+        "Prirodno podmlađivanje kože, kose i noktiju",
+        "Povećanje energije i poboljšanje koncentracije"
+      ],
+      "cocktails": [
+        {
+          "id": 35,
+          "name": "Hydra Boost",
+          "purpose": "Intenzivna hidratacija i vraćanje ravnoteže elektrolita"
+        },
+        {
+          "id": 36,
+          "name": "Immunity Shield",
+          "purpose": "Jačanje odbrambenog sistema i otpornosti organizma"
+        },
+        {
+          "id": 37,
+          "name": "Energy Recharge",
+          "purpose": "Poboljšanje fizičke i mentalne izdržljivosti"
+        },
+        {
+          "id": 38,
+          "name": "Beauty Glow",
+          "purpose": "Sjajna koža, zdrava kosa i nokti"
+        },
+        {
+          "id": 39,
+          "name": "Detox Formula",
+          "purpose": "Oslobađanje tela od toksina i obnavljanje ćelija"
+        }
+      ]
+    },
+    "massages": [
+      {
+        "id": 40,
+        "name": "Limfna drenaža",
+        "description": "Specijalizovana masaža za poboljšanje cirkulacije limfe i detoksikaciju",
+        "benefits": [
+          "Detoksikacija organizma i eliminacija toksina",
+          "Smanjenje otoka i zadržavanja tečnosti",
+          "Podsticanje cirkulacije i jačanje imunog sistema",
+          "Brži oporavak nakon estetskih zahvata",
+          "Smanjenje celulita i poboljšanje tonusa kože"
+        ],
+        "recommended_sessions": "5-10 tretmana"
+      },
+      {
+        "id": 41,
+        "name": "Masaža vrata, glave i ramena",
+        "description": "Terapeutska i relaksaciona masaža za oslobađanje od napetosti",
+        "benefits": [
+          "Otklanja napetost i ukočenost mišića",
+          "Poboljšava cirkulaciju i dotok kiseonika do mozga",
+          "Smanjuje glavobolje i migrene",
+          "Ublažava stres i poboljšava raspoloženje",
+          "Povećava fleksibilnost i pokretljivost"
+        ],
+        "suitable_for": [
+          "Osobe koje dugo sede za računarom",
+          "Osobe sa čestim glavoboljama",
+          "Osobe sa bolovima u vratu i ramenima"
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Opuštajuća masaža",
+        "description": "Tretman za oslobađanje od stresa i postizanje duboke relaksacije",
+        "benefits": [
+          "Smanjuje stres i napetost",
+          "Opušta mišiće i poboljšava cirkulaciju",
+          "Ublažava osećaj umora i iscrpljenosti",
+          "Poboljšava kvalitet sna",
+          "Podstiče duboku relaksaciju"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Opšta masaža",
+        "description": "Masaža celog tela za duboku relaksaciju i regeneraciju",
+        "benefits": [
+          "Opušta telo i smanjuje stres",
+          "Poboljšava cirkulaciju",
+          "Ublažava bol i ukočenost",
+          "Poboljšava san",
+          "Podstiče eliminaciju toksina"
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Anticelulitna masaža",
+        "description": "Efikasan tretman za eliminaciju celulita i oblikovanje tela",
+        "benefits": [
+          "Razbija masne naslage i smanjuje celulit",
+          "Poboljšava cirkulaciju i limfnu drenažu",
+          "Eliminiše višak tečnosti i toksina",
+          "Povećava elastičnost kože",
+          "Oblikuje telo"
+        ],
+        "recommended_sessions": "10-15 tretmana"
+      },
+      {
+        "id": 45,
+        "name": "Bukalna masaža",
+        "description": "Jedinstvena tehnika masaže lica koja se izvodi iznutra i spolja",
+        "benefits": [
+          "Prirodni lifting lica bez filera",
+          "Smanjenje bora i finih linija",
+          "Ublažavanje natečenosti",
+          "Smanjenje napetosti u vilici",
+          "Povećana cirkulacija"
+        ],
+        "recommended_sessions": "5-10 tretmana"
+      },
+      {
+        "id": 46,
+        "name": "Visceralna masaža",
+        "description": "Terapeutska tehnika fokusirana na stimulaciju unutrašnjih organa",
+        "benefits": [
+          "Poboljšava varenje i smanjuje nadutost",
+          "Podstiče detoksikaciju",
+          "Pomaže kod zatvora",
+          "Smanjuje osećaj težine u stomaku",
+          "Poboljšava cirkulaciju"
+        ],
+        "recommended_sessions": "5-10 tretmana"
+      }
+    ]
+  }
+}

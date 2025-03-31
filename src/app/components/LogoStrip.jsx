@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LogoStrip({data}) {
  return (
-    <div className="mt-20  ">
+    <div className="mt-20 hidden md:block">
       <div className="flex justify-around items-center">
         {data.map((logo) => (
           <div

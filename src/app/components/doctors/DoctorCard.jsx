@@ -5,19 +5,7 @@ import { useState, useRef } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 
-function formatTextLines(text) {
-  const sentences = text
-    .split(",")
-    .map((sentence) => sentence.trim())
-    .map((sentence) => sentence.charAt(0).toUpperCase() + sentence.slice(1)); 
 
-
-  if (sentences.length > 5) {
-    return sentences.slice(0, 5).join(",\n") + `...`;
-  }
-
-  return sentences.join(",\n");
-}
 
 export default function DoctorCard({ doctor }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -29,7 +17,7 @@ export default function DoctorCard({ doctor }) {
 
   return (
     <>
-      <div className="flex flex-col h-full space-y-2 text-left mb-20">
+      <div className="flex flex-col h-full  text-left mb-20">
         <div>
           <img className="w-full mx-auto" src={doctor.image} />
         </div>
@@ -44,7 +32,7 @@ export default function DoctorCard({ doctor }) {
             onClick={toggleExpand}
             className="flex flex-row justify-between items-center w-full border-t cursor-pointer border-black p-3"
           >
-            <p>ABOUT {doctor.name.toUpperCase()}</p>
+            <p>VIŠE O {doctor.name.toUpperCase()}</p>
             <span>
               <FontAwesomeIcon
                 icon={isExpanded ? faMinus : faPlus}

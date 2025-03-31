@@ -1,73 +1,72 @@
+"use client";
 import DoctorsSection from "@/app/components/doctors/DoctorsSection";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
+import TextAnimation from "@/app/components/animations/TextAnimation";
 
+// Registruj ScrollTrigger plugin
 
 export default function AboutUs() {
   return (
     <>
-      <div class="flex flex-row items-center mt-20">
-        <div class="w-1/2">
-          <div className="flex flex-col justify-center w-2/4 mx-auto items-center">
-            <p className="font-light text-black headline text-[48px]">
-              NEKI NASLOV
-            </p>
-            <p className="text-ellipsis text-center">
-              Established in 2014 by Alice Henshaw, Harley Street Injectables
-              epitomizes excellence in aesthetic care. With a focus on bespoke
-              injection techniques and quality products, our medically trained
-              staff deliver personalised service tailored to each client's
-              unique needs. From non-invasive options to cutting-e dge
-              technologies, our holistic approach to aesthetics ensures
-              unparalleled results while prioritising patient satisfaction and
-              well-being.{" "}
-            </p>
+      <div>
+        {/* Prvi deo: ŠTA NUDIMO */}
+        <div className="flex flex-col md:flex-row items-center mt-20">
+          <div className="md:w-1/2 w-full ">
+            <TextAnimation>
+              <div className="flex flex-col justify-center w-full sm:w-2/3 mx-auto items-center py-7 sm:py-0 ">
+                <p className="font-light text-black headline text-[32px] sm:text-[40px] text-center sm:text-left">
+                  VAŠA KLINIKA
+                </p>
+                <p className="px-5 sm:px-0 sm:text-center">
+                  Ego Aesthetics klinika nudi bogat spektar usluga iz oblasti
+                  laserske, aparatne, estetske i terapijske kozmetologije. Naš
+                  prioritet nije samo očuvanje vaše lepote i mladosti, već i
+                  unapređenje vašeg zdravlja i opšteg blagostanja.
+                </p>
+              </div>
+            </TextAnimation>
+          </div>
+          <div className="md:w-1/2 w-full mt-5 md:mt-0">
+            <Image
+              src="/images/saloon/salon1.jpg"
+              width={1400}
+              height={800}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
-        <div class="w-1/2">
-          <Image
-            src="/images/saloon/salon1.jpg"
-            width={1400}
-            height={800}
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
 
-      <div class="flex flex-row-reverse items-center ">
-        <div class="w-1/2">
-          <div className="flex flex-col justify-center w-2/4 mx-auto items-center text-ellipsis text-center">
-            <p className="headline  text-[48px] ">NEKI NASLOV</p>
-            <p>
-              Established in 2014 by Alice Henshaw, Harley Street Injectables
-              epitomizes excellence in aesthetic care. With a focus on bespoke
-              injection techniques and quality products, our medically trained
-              staff deliver personalised service tailored to each client's
-              unique needs. From non-invasive options to cutting-e dge
-              technologies, our holistic approach to aesthetics ensures
-              unparalleled results while prioritising patient satisfaction and
-              well-being.{" "}
-            </p>
+        {/* Drugi deo: NAŠ CILJ */}
+        <div className="flex flex-col md:flex-row-reverse items-center ">
+          <div className="md:w-1/2 w-full ">
+            <TextAnimation>
+              <div className="flex py-5 sm:py-0 flex-col justify-center  items-center mx-auto w-full sm:w-2/3 ">
+                <p className="font-light text-black headline text-[32px] sm:text-[40px] text-center sm:text-left">
+                  LEPOTA I SAMOPOUZDANJE
+                </p>
+                <p className="text-left px-5 sm:px-0 py-5 sm:py-0 sm:text-center">
+                  U Ego Aesthetics klinici, cilj nam je prirodna revitalizacija
+                  koja naglašava vašu jedinstvenu lepotu, istovremeno podižući
+                  vaše samopouzdanje i zadovoljstvo sobom. Sa našim
+                  stručnjacima, sigurni ste u najboljim rukama.
+                </p>
+              </div>
+            </TextAnimation>
+          </div>
+          <div className="md:w-1/2 w-full mt-5 md:mt-0">
+            <Image
+              src="/images/saloon/salon3.jpg"
+              width={1400}
+              height={800}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
-        <div class="w-1/2">
-          <Image
-            src="/images/saloon/salon3.jpg"
-            width={1400}
-            height={800}
-            className="w-full h-full object-cover"
-          />
-        </div>
+
+        {/* Lekari */}
+        <DoctorsSection />
       </div>
-      <div className="bg-salmon text-white w-full h-[600px] flex flex-col justify-center items-center">
-        <div className="w-1/3 text-center text-pretty">
-          <p className="headline text-3xl">OUR TEAM</p>
-          <p className="text-ellipsis text-center">{`Our team is renowned for their skill, aesthetic eye and caring approach. 
-            Our patients are at the centre of all we do and we pride ourselves on the unparalleled service they receive at Harley Street Injectables. Every client of ours has treatments they wish for, that subtly suits them and only they know have been done.`}</p>
-        </div>
-      </div>
-      <DoctorsSection />
-      
     </>
   );
 }

@@ -10,7 +10,6 @@ export default function SingleDoc() {
   const { id } = useParams();
 
   const doctor = docotors.find((doctor) => doctor.id === parseInt(id));
-  console.log(doctor);
 
   return (
     <div className="bg-zinc-100 min-h-screen flex justify-center">

@@ -1,116 +1,78 @@
-"use client";
-import { useParams } from "next/navigation";
-import treatmants from "@/app/data/treatmants.json";
-import DoctorsSection from "@/app/components/doctors/DoctorsSection";
-import Image from "next/image";
+import { getTreatmentById, getAllTreatmentIds,getAllTreatments } from "@/lib/treatments";
 import ContentSection from "@/app/components/ContentSection";
+import FAQ from "@/app/components/ui/FAQ";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faInstagram,
-  faTiktok,
-} from "@fortawesome/free-brands-svg-icons";
-export default function TreatmentDetails() {
-  const { id } = useParams();
+// Generišemo statičke parametre za sve tretmane
+export async function generateStaticParams() {
+  const treatments = getAllTreatmentIds(); 
+  
+  return treatments.map((treatment) => ({
+    id: treatment.params.id, 
+  }));
+}
 
-  const treatmant = treatmants.find(
-    (treatment) => treatment.id === parseInt(id)
-  );
 
-  if (!treatmant) {
-    return <p className="text-center text-red-500">Tretman nije pronađen.</p>;
+// Funkcija za renderovanje stranice sa podacima
+export default async function TreatmentDetails({ params }) {
+  const treatment = getTreatmentById(params.id); // Dohvatimo podatke za tretman
+
+  if (!treatment) {
+    return <div>Tretman nije pronađen.</div>;
   }
-
-  const description = `At Harley Street Injectables, we are proud to offer the advanced Cutera Laser Genesis treatment, a revolutionary solution for achieving smoother, clearer, and more youthful skin. 
-
-This innovative laser therapy is designed to address a variety of skin concerns, including redness and rosacea, providing you with a refreshed and radiant complexion without the need for invasive procedures or extensive downtime.`;
 
   return (
     <>
-      <div className="flex flex-col">
-        <div>
+      <section className="sm:py-20">
+        <ContentSection
+          imageSrc={treatment.firstImage.src}
+          title={treatment.title.toUpperCase()}
+          description={treatment.treatment_details.description.join("\n")}
+        />
+      </section>
+
+      <section className="py-2 sm:py-10 sm:w-2/5 w-full mx-auto">
+        <div className="sm:text-center text-left px-5">
+          <p className="text-3xl py-5 ">
+            {treatment.treatment_details.what_is_it.question}
+          </p>
+          <p>
+            {treatment.treatment_details.what_is_it?.answer ??
+              treatment.treatment_details.when_is_it_used?.answer}
+          </p>
+        </div>
+      </section>
+
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[3fr_2fr_1fr] py-4  sm:py-10">
+        <div className="col-span-2">
           <ContentSection
-            imageSrc={treatmant.image}
-            title={"Elevate Your Beauty with a Full Face Filler or Liquid Facelift".toUpperCase()}
-            description={description}
-            reverse={true}
+            imageSrc="/images/gallery/galery3.jpg"
+            title={treatment.treatment_details.how_it_is_done.question.toUpperCase()}
+            description={treatment.treatment_details.how_it_is_done.answer.join("\n") || treatment.treatment_details.how_it_is_done.join("\n")  }
+            reverse
           />
         </div>
-        <div className="  w-full h-[350px] flex flex-col justify-center items-center">
-          <div className="w-1/3 text-center text-pretty">
-            <p className="headline text-3xl">
-              The Science Behind Cutera Laser Genesis:
+
+        <div className="flex flex-col bg-salmon text-white p-6">
+          <div className="my-auto">
+            <p className="font-bold">Trajanje tretmana:</p>
+            <p>{treatment.treatment_details.treatment_info.duration || "N/A"}</p>
+
+            <p className="font-bold mt-4">Nivo nelagodnosti tokom izvršavanja:</p>
+            <p>{treatment.treatment_details.treatment_info.pain_level || "Minimalan"}</p>
+
+            <p className="font-bold mt-4">Cena:</p>
+            <p className=" text-center py-2">
+              {treatment.treatment_details.price}
             </p>
-            <p className="text-ellipsis text-center">{`Cutera Laser Genesis uses a 1064 nm Nd:YAG laser, which is ideal for treating diffuse redness and promoting collagen production. The laser energy penetrates deep into the skin, targeting water in the dermis. This controlled heating of the dermis stimulates the body's natural healing processes, leading to increased collagen production and a reduction in redness. The treatment also targets microvasculature, helping to reduce the appearance of diffuse redness and rosacea`}</p>
           </div>
         </div>
-        <div className="flex flex-row">
-          <div className="flex flex-col w-3/4">
-            <div>
-              <ContentSection
-                imageSrc="/images/treatmants/treatman4.jpg"
-                title={"What to Expect During Your Cutera Laser Genesis Treatment"}
-                description={`Consultation:
+      </section>
 
- Our experienced skincare specialists will assess your skin and discuss your aesthetic goals to determine if Laser Genesis is the right treatment for you.
-
-Preparation:
-
-Your skin will be cleansed, and protective eyewear will be provided.
-
-Treatment:
-
-The Laser Genesis device will be gently moved over the treatment area, delivering precise laser energy to the skin. The procedure is typically pain-free, with most patients describing a warm, relaxing sensation.
-
-`}
-              />
-            </div>
-            <div>
-              <ContentSection
-                imageSrc="/images/treatmants/treatman4.jpg"
-                title={"What to Expect During Your Cutera Laser Genesis Treatment"}
-                description={`Consultation:
-
-                  Our experienced skincare specialists will assess your skin and discuss your aesthetic goals to determine if Laser Genesis is the right treatment for you.
-                 
-                 Preparation:
-                 
-                 Your skin will be cleansed, and protective eyewear will be provided.
-                 
-                 Treatment:
-                 
-                 The Laser Genesis device will be gently moved over the treatment area, delivering precise laser energy to the skin. The procedure is typically pain-free, with most patients describing a warm, relaxing sensation.
-                 
-                 `}
-                reverse={true}
-              />
-            </div>
-          </div>
-          <div className="min-h-full bg-salmon w-1/4 text-white flex items-center justify-center">
-            <div className="w-1/2">
-              <p>
-                Trajanje tretmana
-              </p>
-              <p>
-                30min
-              </p>
-              <p>Nivo bola tokom izvrsavanja</p>
-              <p>Minimalan</p>
-              <p className="text-left py-2">Cena</p>
-              <p className="bg-white text-salmon text-center w-1/2">12.000 din</p>
-            </div>
-          </div>
+      <section className="py-10 sm:px-0 px-5">
+        <div className="flex flex-col items-center justify-center sm:w-1/4 mx-auto">
+          <FAQ faqData={treatment.FAQ_data} />
         </div>
-        <div className="w-full h-[350px] flex flex-col justify-center items-center">
-          <div className="w-1/3 text-center text-pretty">
-            <p className="headline text-3xl">
-            AFTERCARE
-            </p>
-            <p className="text-ellipsis text-center">{`Prioritize your skin's health by following our pre and post-treatment recommendations. Your practitioner will provide personalized guidance on how to prepare for your treatment and care for your skin afterward to optimize results and minimize downtime.`}</p>
-          </div>
-        </div>
-      </div>
+      </section>
     </>
   );
 }

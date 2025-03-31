@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect, useRef } from "react";
 import ObserverComponent from "./ObserverComponent";
+import TextAnimation from "./animations/TextAnimation";
 
 const WavyTop = () => {
   return (
@@ -20,12 +21,15 @@ const WavyTop = () => {
   // relative pt-32 bg-salmon
   const QuoteBanner = () => {
     return (
-      <div className="relative pt-24 bg-salmon">
+      <div className="relative pt-32 sm:pt-24  my-16 sm:my-0   bg-salmon">
         <WavyTop />
           <div className="absolute inset-0 flex items-center justify-center ">
-            <div className="w-1/3">
-              <p className="text-xl text-white italic my-auto pt-12">
-                <span className="text-4xl text-left">" </span>Uđite u naš svet lepote i prepustite se transformišućem iskustvu koje slavi vašu jedinstvenost. Dozvolite nam da probudimo vašu unutrašnju lepotu i osnažimo vas da zasijate, jer prava lepota nije samo u tome kako izgledate, već i u tome kako se osećate.<span className="text-3xl">"</span>
+            <div className="sm:w-1/3 w-full">
+              <p className="hidden sm:block sm:text-lg text-white italic my-auto pt-12">
+                <span className="text-4xl text-left font-thin">" </span>Uđite u naš svet lepote i prepustite se transformišućem iskustvu koje slavi vašu jedinstvenost. Dozvolite nam da probudimo vašu unutrašnju lepotu i osnažimo vas da zasijate, jer prava lepota nije samo u tome kako izgledate, već i u tome kako se osećate.<span className="text-3xl">"</span>
+              </p>
+              <p className="text-white px-2 w-full text-sm sm:hidden block ">
+              Dozvolite nam da probudimo vašu unutrašnju lepotu i osnažimo vas da zasijate, jer prava lepota nije samo u tome kako izgledate, već i u tome kako se osećate.
               </p>
             </div>
             <div className="w-72">
